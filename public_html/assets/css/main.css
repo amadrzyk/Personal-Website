@@ -45,12 +45,14 @@ body, html {
 }
 
 #title {
-    top: 38%;
+    top: 36%;
 }
 
 #headerTitle {
-    font-size: 25pt;
-    font-weight: bold;
+    font-family: Roboto;
+    font-size: 35pt;
+    font-weight: 500;
+    letter-spacing: 1px;
 }
 
 #title span.border{

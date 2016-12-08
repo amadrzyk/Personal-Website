@@ -38,7 +38,7 @@
 
     <div class="bgimg-1">
         <div class="caption" id="title">
-            <span class="border" id="headerTitle">ALEX MADRZYK</span>
+            <span class="border" id="headerTitle"> Alex Madrzyk </span>
         </div>
     </div>
 
