@@ -86,10 +86,11 @@
         <div class="row">
             <div class="col-lg-4">
                 <p style="font-style: italic; text-align: center">Profile</p>
-                <p style="text-align: justify; line-height: 135%">
-                    I am a Computer Science student at Western University, focusing on programming and design with
-                    experience in electronics, development, graphic design and customer relations.
-                    Also, learning new things is my passion! <br><br>
+                <p style="text-align: left; line-height: 135%">
+                    I am a computer science student at Western University, focused on web and software
+                    development, design, and customer relations. In my years as a student and young professional,
+                    I have delivered creative and engaging solutions across digital media and online presence
+                    and assumed leadership roles along the way. Also, learning new things is my passion! <br><br>
 
                     When I’m not in class, you can find me going on adventures with friends, or in my workspace
                     working on a new project.
@@ -104,13 +105,13 @@
             <div class="col-lg-4">
                 <p style="font-style: italic; text-align: center">Fun Facts</p>
                 <p style="text-align: left;">
-                    <ul style="line-height: 135%">
+                    <ul style="line-height: 135%; text-align: left;">
                         <li>I’ve traveled around North America and Europe, and I hope to never stop exploring</li>
                         <li>I am obsessed with Shiba Inu dogs</li>
                         <li>I speak three languages fluently, and I am trying to learn a fourth</li>
                         <li>I love being involved in the community and volunteering</li>
-                        <li>I usually program in HTML/CSS, Java or C, but I'm commited to expanding my know- ledge
-                            with new languages and frameworks</li>
+                        <li>I usually program in HTML/CSS, Java or C, but I'm commited to expanding my knowledge
+                            in new languages and frameworks</li>
                     </ul>
                 </p>
             </div>
