@@ -46,7 +46,7 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Home</a>
+                <a class="navbar-brand page-scroll" href="#page-top">HOME</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -81,36 +81,42 @@
     <div id="firstPane" style="color: #777; background-color:white; padding:50px 80px; text-align: justify;">
 
         <!-- Title -->
-        <h3 style="text-align:center;">Parallax Demo</h3>
+        <h3 style="text-align:center;">About Me</h3>
         <!-- Content -->
         <div class="row">
-            <div class="col-lg-1"></div>
-
             <div class="col-lg-4">
-                <p>
-                    Parallax scrolling is a web site trend where the background content is moved at a different speed
-                    than the foreground content while scrolling. Nascetur per nec posuere turpis, lectus nec libero
-                    turpis nunc at, sed posuere mollis ullamcorper libero ante lectus, blandit pellentesque a, magna
-                    turpis est sapien duis blandit dignissim. Viverra interdum mi magna mi, morbi sociis. Condimentum
-                    dui ipsum consequat morbi, curabitur aliquam pede, nullam vitae eu placerat eget et vehicula.
+                <p style="font-style: italic; text-align: center">Profile</p>
+                <p style="text-align: left; line-height: 135%">
+                    I am a Computer Science student at Western University, focusing on programming and design with
+                    experience in electronics, development, graphic design and customer relations.
+                    Also, learning new things is my passion! <br><br>
+
+                    When I’m not in class, you can find me going on adventures with friends or in my workspace,
+                    working on a new project.
                 </p>
 
             </div>
-            <div class="col-lg-2">
-
-            </div>
             <div class="col-lg-4">
-                <p>
-                    Varius
-                    quisque non molestie dolor, nunc nisl dapibus vestibulum at, sodales tincidunt mauris ullamcorper,
-                    dapibus pulvinar, in in neque risus odio. Accumsan fringilla vulputate at quibusdam sociis eleifend,
-                    aenean maecenas vulputate, non id vehicula lorem mattis, ratione interdum sociis ornare. Suscipit proin
-                    magna cras vel, non sit platea sit, maecenas ante augue etiam maecenas, porta porttitor placerat leo.
+                <p class="profilePic">
+                    <img src="./assets/img/me.png" alt="Alex Madrzyk" height="220px" width="220px"></img>
                 </p>
             </div>
-            <div class="col-lg-1"></div>
-
+            <div class="col-lg-4">
+                <p style="font-style: italic; text-align: center">Fun Facts</p>
+                <p style="text-align: left;">
+                    <ul style="line-height: 135%">
+                        <li>I’ve traveled around North America and Europe, and I hope to never stop exploring</li>
+                        <li>I am obsessed with Shiba Inu dogs</li>
+                        <li>I speak three languages fluently, I am trying to learn a fourth</li>
+                        <li>I love being involved in the community and volunteering</li>
+                        <li>I usually program in HTML/CSS, Java or C, but I am commited to expanding my knowledge
+                            with new languages and frameworks</li>
+                    </ul>
+                </p>
+            </div>
          </div>
+
+        <p style="text-align: center; padding-top: 5%">Want to work together? I would love to hear from you!</p>
 
         <!-- Contact Button -->
         <div class="row">

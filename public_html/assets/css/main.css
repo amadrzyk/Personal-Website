@@ -20,7 +20,7 @@ body, html {
 }
 .navbar-default .navbar-header .navbar-brand {
     font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-    font-weight: 200;
+    font-weight: 300;
     letter-spacing: 1px;
     color: #fdcc52;
 }
@@ -37,7 +37,7 @@ body, html {
     font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 900;
     color: white;
 }
@@ -126,6 +126,11 @@ body, html {
     min-height: 550px;
 }
 
+.profilePic {
+    text-align:center;
+    padding-top: 2.5%;
+}
+
 /* ================================================== TEXT ================================================== */
 
 .caption {
@@ -164,10 +169,11 @@ body, html {
 }
 
 h3 {
-    letter-spacing: 5px;
+    letter-spacing: 14px;
     text-transform: uppercase;
-    font: 20px "Lato", sans-serif;
-    color: #111;
+    font: 40px "Lato", sans-serif;
+    color: #3e3e3b;
+    padding-bottom: 5%;
 }
 
 /* ================================================== TEXT ================================================== */
@@ -180,4 +186,6 @@ footer {
 
 footer h3 {
     color: white;
+    font-size: 20px;
+    padding-bottom: 0px;
 }
