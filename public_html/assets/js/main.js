@@ -1,7 +1,6 @@
 /**
  * Author: Heather Corey
  * jQuery Simple Parallax Plugin
- *
  */
 
 (function($) {
@@ -43,10 +42,30 @@
     }
 }(jQuery));
 
-$('.bgimg-1, .bgimg-3').parallax({
+$('.bgimg-1, .bgimg-2, .bgimg-3').parallax({
     speed :	0.15
 });
 
-$('.bgimg-2').parallax({
-    speed :	0.25
-});
+
+/**
+ * Author: BlackRockDigital
+ * jQuery Navbar Fade
+ */
+!function(t) {
+    "use strict";
+    t("a.page-scroll").bind("click", function(a) {
+        var o = t(this);
+        t("html, body").stop().animate({
+            scrollTop: t(o.attr("href")).offset().top - 50
+        }, 1250, "easeInOutExpo"), a.preventDefault()
+    }), t("body").scrollspy({
+        target: ".navbar-fixed-top",
+        offset: 100
+    }), t(".navbar-collapse ul li a").click(function() {
+        t(".navbar-toggle:visible").click()
+    }), t("#mainNav").affix({
+        offset: {
+            top: 600
+        }
+    })
+}(jQuery);

@@ -1,0 +1,178 @@
+#contactButton {
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 14px;
+    word-wrap: break-word;
+    text-rendering: optimizeLegibility;
+    -moz-font-feature-settings: 'liga';
+    -webkit-font-feature-settings: 'liga';
+    font-feature-settings: 'liga';
+    padding-top: 40%;
+    padding-bottom: 15%;
+}
+
+#u104 {
+    width: 267px;
+    min-height: 50px;
+    border-width: 0px;
+    border-color: transparent;
+    background-color: transparent;
+    font-size: 27px;
+}
+
+@-webkit-keyframes life-lines {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes life-lines {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@-webkit-keyframes life-scale {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    50% {
+        -webkit-transform: scale(0.98);
+        transform: scale(0.98);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+@keyframes life-scale {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    50% {
+        -webkit-transform: scale(0.98);
+        transform: scale(0.98);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+.u104 {
+    display: inline-block;
+    background-color: #3E3E3B;
+    border-radius: 6px;
+    padding: 0 3rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transition:
+            -webkit-transform .3s ease-in-out;
+    transition: transform .3s ease-in-out;
+}
+.u104:before, .u104:after {
+    position: absolute;
+    background-color: #3E3E3B;
+    content: ' ';
+    height: .15rem;
+    border-radius: .15rem;
+    width: 1.4rem; top: -.7rem;
+    left: -1.5rem;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg); opacity: 0;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.u104:after {
+    left: initial;
+    right: -1.5rem;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg); }
+.u104 .btn-title {
+    color: #FFFFFF;
+    line-height: 2;
+    white-space: nowrap;
+}
+.u104 .btn-title:before, .u104 .btn-title:after {
+    position: absolute;
+    background-color: #3E3E3B;
+    content: ' ';
+    height: .15rem;
+    border-radius: .15rem;
+    width: 1.4rem;
+    bottom: -.7rem;
+    left: -1.5rem;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    opacity: 0;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.u104 .btn-title:after {
+    left: initial;
+    right: -1.5rem;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.u104:hover {
+    cursor: pointer;
+    -webkit-transition: -webkit-transform .05s ease-in-out;
+    transition: transform .05s ease-in-out;
+    -webkit-animation: life-scale .4s;
+    animation: life-scale .4s;
+}
+.u104:hover:before, .u104:hover:after {
+    -webkit-animation: life-lines .4s;
+    animation: life-lines .4s;
+}
+.u104:hover:before {
+    -webkit-transform: rotate(45deg) translateX(-1rem);
+    -ms-transform: rotate(45deg) translateX(-1rem);
+    transform: rotate(45deg) translateX(-1rem);
+}
+.u104:hover:after {
+    -webkit-transform: rotate(-45deg) translateX(1rem);
+    -ms-transform: rotate(-45deg) translateX(1rem);
+    transform: rotate(-45deg) translateX(1rem);
+}
+.u104:hover .btn-title:before, .u104:hover .btn-title:after {
+    -webkit-animation: life-lines .4s;
+    animation: life-lines .4s;
+}
+.u104:hover .btn-title:before {
+    -webkit-transform: rotate(-45deg) translateX(-1rem);
+    -ms-transform: rotate(-45deg) translateX(-1rem);
+    transform: rotate(-45deg) translateX(-1rem);
+}
+.u104:hover .btn-title:after {
+    -webkit-transform: rotate(45deg) translateX(1rem);
+    -ms-transform: rotate(45deg) translateX(1rem);
+    transform: rotate(45deg) translateX(1rem);
+}
+.center-center {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}

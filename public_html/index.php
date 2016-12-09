@@ -24,6 +24,9 @@
     <link href="//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,800,300' rel='stylesheet' type='text/css'>
 
+    <!-- Custom Page Element Styles -->
+    <link rel="stylesheet" type="text/css" href="page_elements/css/hover_button.css">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -33,49 +36,125 @@
 
 </head>
 
-<body>
+<body id="page-top">
+    <!--=============================================== NAVBAR ==================================================-->
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Home</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#firstPane">Download</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#secondPane">Features</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#thirdPane">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
     <!--=============================================== BODY ====================================================-->
 
+    <!-- Header Title -->
     <div class="bgimg-1">
         <div class="caption" id="title">
             <span class="border" id="headerTitle"> Alex Madrzyk </span>
         </div>
     </div>
 
-    <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+    <!-- First Info Pane -->
+    <div id="firstPane" style="color: #777; background-color:white; padding:50px 80px; text-align: justify;">
+
+        <!-- Title -->
         <h3 style="text-align:center;">Parallax Demo</h3>
-        <p>Parallax scrolling is a web site trend where the background content is moved at a different speed than the foreground content while scrolling. Nascetur per nec posuere turpis, lectus nec libero turpis nunc at, sed posuere mollis ullamcorper libero ante lectus, blandit pellentesque a, magna turpis est sapien duis blandit dignissim. Viverra interdum mi magna mi, morbi sociis. Condimentum dui ipsum consequat morbi, curabitur aliquam pede, nullam vitae eu placerat eget et vehicula. Varius quisque non molestie dolor, nunc nisl dapibus vestibulum at, sodales tincidunt mauris ullamcorper, dapibus pulvinar, in in neque risus odio. Accumsan fringilla vulputate at quibusdam sociis eleifend, aenean maecenas vulputate, non id vehicula lorem mattis, ratione interdum sociis ornare. Suscipit proin magna cras vel, non sit platea sit, maecenas ante augue etiam maecenas, porta porttitor placerat leo.</p>
+        <!-- Content -->
+        <div class="row">
+            <div class="col-lg-1"></div>
+
+            <div class="col-lg-4">
+                <p>
+                    Parallax scrolling is a web site trend where the background content is moved at a different speed
+                    than the foreground content while scrolling. Nascetur per nec posuere turpis, lectus nec libero
+                    turpis nunc at, sed posuere mollis ullamcorper libero ante lectus, blandit pellentesque a, magna
+                    turpis est sapien duis blandit dignissim. Viverra interdum mi magna mi, morbi sociis. Condimentum
+                    dui ipsum consequat morbi, curabitur aliquam pede, nullam vitae eu placerat eget et vehicula.
+                </p>
+
+            </div>
+            <div class="col-lg-2">
+
+            </div>
+            <div class="col-lg-4">
+                <p>
+                    Varius
+                    quisque non molestie dolor, nunc nisl dapibus vestibulum at, sodales tincidunt mauris ullamcorper,
+                    dapibus pulvinar, in in neque risus odio. Accumsan fringilla vulputate at quibusdam sociis eleifend,
+                    aenean maecenas vulputate, non id vehicula lorem mattis, ratione interdum sociis ornare. Suscipit proin
+                    magna cras vel, non sit platea sit, maecenas ante augue etiam maecenas, porta porttitor placerat leo.
+                </p>
+            </div>
+            <div class="col-lg-1"></div>
+
+         </div>
+
+        <!-- Contact Button -->
+        <div class="row">
+            <div class="col-md-5"></div>
+            <div class="col-md-2">
+                <?php
+                include_once "page_elements/hover_button.html";
+                ?>
+            </div>
+            <div class="col-md-5"></div>
+        </div>
     </div>
 
+    <!-- Second Background Image -->
     <div class="bgimg-2">
         <div class="caption">
             <span class="border">LESS HEIGHT</span>
         </div>
     </div>
 
-    <div style="position:relative;">
-        <div style="color:#777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+    <!-- Second Info Pane -->
+    <div id="secondPane" style="position:relative;">
+        <div style="color:#777; background-color:white; padding:50px 80px; text-align: justify;">
             <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
         </div>
     </div>
 
+    <!-- Third Background Image -->
     <div class="bgimg-3">
         <div class="caption">
             <span class="border">SCROLL UP</span>
         </div>
     </div>
 
-    <div style="position:relative;">
-        <div style="color:#777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+    <!-- Third Info Pane -->
+    <div id="thirdPane" style="position:relative;">
+        <div style="color:#777; background-color:white; padding:50px 80px; text-align: justify;">
             <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
         </div>
     </div>
 
-    <div class="bgimg-1">
-        <div class="caption">
-            <span class="border">COOL!</span>
-        </div>
-    </div>
+    <footer id="footer">
+        <h3>Some Footer Text</h3>
+    </footer>
 
     <!--=============================================== JS SCRIPTS ==============================================-->
     <!-- jQuery -->
@@ -85,7 +164,7 @@
     <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="assets/js/jquery.easing.min.js" type="text/javascript"></script>
 
     <!-- Contact Form JavaScript -->
     <!-- <script src="js/jqBootstrapValidation.js"></script>-->
