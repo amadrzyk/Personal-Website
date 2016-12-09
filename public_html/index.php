@@ -53,7 +53,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#firstPane">Download</a>
+                        <a class="page-scroll" href="#firstPane">About Me</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#secondPane">Features</a>
@@ -78,7 +78,7 @@
     </div>
 
     <!-- First Info Pane -->
-    <div id="firstPane" style="color: #777; background-color:white; padding:50px 80px; text-align: justify;">
+    <div id="firstPane" style="background-color:white; padding:50px 80px; text-align: justify;">
 
         <!-- Title -->
         <h3 style="text-align:center;">About Me</h3>
@@ -86,12 +86,12 @@
         <div class="row">
             <div class="col-lg-4">
                 <p style="font-style: italic; text-align: center">Profile</p>
-                <p style="text-align: left; line-height: 135%">
+                <p style="text-align: justify; line-height: 135%">
                     I am a Computer Science student at Western University, focusing on programming and design with
                     experience in electronics, development, graphic design and customer relations.
                     Also, learning new things is my passion! <br><br>
 
-                    When I’m not in class, you can find me going on adventures with friends or in my workspace,
+                    When I’m not in class, you can find me going on adventures with friends, or in my workspace
                     working on a new project.
                 </p>
 
@@ -107,9 +107,9 @@
                     <ul style="line-height: 135%">
                         <li>I’ve traveled around North America and Europe, and I hope to never stop exploring</li>
                         <li>I am obsessed with Shiba Inu dogs</li>
-                        <li>I speak three languages fluently, I am trying to learn a fourth</li>
+                        <li>I speak three languages fluently, and I am trying to learn a fourth</li>
                         <li>I love being involved in the community and volunteering</li>
-                        <li>I usually program in HTML/CSS, Java or C, but I am commited to expanding my knowledge
+                        <li>I usually program in HTML/CSS, Java or C, but I'm commited to expanding my know- ledge
                             with new languages and frameworks</li>
                     </ul>
                 </p>
@@ -132,9 +132,9 @@
 
     <!-- Second Background Image -->
     <div class="bgimg-2">
-        <div class="caption">
-            <span class="border">LESS HEIGHT</span>
-        </div>
+<!--        <div class="caption">-->
+<!--            <span class="border">LESS HEIGHT</span>-->
+<!--        </div>-->
     </div>
 
     <!-- Second Info Pane -->
