@@ -70,14 +70,14 @@
 
     <!--=============================================== BODY ====================================================-->
 
-    <!-- Header Title -->
+    <!-- HEADER TITLE -->
     <div class="bgimg-1">
         <div class="caption" id="title">
             <span class="border" id="headerTitle"> Alex Madrzyk </span>
         </div>
     </div>
 
-    <!-- First Info Pane -->
+    <!-- FIRST INFO PANE -->
     <div id="firstPane" style="background-color:white; padding:50px 80px; text-align: justify;">
 
         <!-- Title -->
@@ -85,14 +85,14 @@
         <!-- Content -->
         <div class="row">
             <div class="col-lg-4">
-                <p style="font-style: italic; text-align: center">Profile</p>
+                <p style="font-style: italic; text-align: center; font-weight: 100">Profile</p>
                 <p style="text-align: left; line-height: 135%">
-                    I am a computer science student at Western University, focused on web and software
-                    development, design, and customer relations. In my years as a student and young professional,
-                    I have delivered creative and engaging solutions across digital media and online presence
-                    and assumed leadership roles along the way. Also, learning new things is my passion! <br><br>
+                    Hi, I'm Alex! I am a third-year computer science student at Western University. My passions lie in
+                    web and software development, design, and customer relations. In my years as a student and
+                    young professional, I have delivered creative and engaging solutions across digital media and
+                    online presence and assumed leadership roles along the way.<br><br>
 
-                    When I’m not in class, you can find me going on adventures with friends, or in my workspace
+                    When I’m not in class, you can find me going on adventures with friends, or at my desk
                     working on a new project.
                 </p>
 
@@ -103,21 +103,19 @@
                 </p>
             </div>
             <div class="col-lg-4">
-                <p style="font-style: italic; text-align: center">Fun Facts</p>
-                <p style="text-align: left;">
-                    <ul style="line-height: 135%; text-align: left;">
-                        <li>I’ve traveled around North America and Europe, and I hope to never stop exploring</li>
-                        <li>I am obsessed with Shiba Inu dogs</li>
-                        <li>I speak three languages fluently, and I am trying to learn a fourth</li>
-                        <li>I love being involved in the community and volunteering</li>
-                        <li>I usually program in HTML/CSS, Java or C, but I'm commited to expanding my knowledge
-                            in new languages and frameworks</li>
-                    </ul>
-                </p>
+                <p style="font-style: italic; text-align: center; font-weight: 100">Fun Facts</p>
+                <ul style="line-height: 135%; text-align: left;">
+                    <li>I’ve traveled around North America and Europe, and I hope to never stop exploring the world</li>
+                    <li>I am obsessed with Shiba Inu dogs</li>
+                    <li>I speak three languages fluently, and I am trying to learn a fourth</li>
+                    <li>I love being involved in the community and volunteering</li>
+                    <li>I've taught myself HTML/CSS, Java and C, and I'm committed to expanding my knowledge
+                        in new languages and frameworks</li>
+                </ul>
             </div>
          </div>
 
-        <p style="text-align: center; padding-top: 5%">Want to work together? I would love to hear from you!</p>
+        <p style="text-align: center; padding-top: 4%">Want to work together? I would love to hear from you!</p>
 
         <!-- Contact Button -->
         <div class="row">
@@ -131,30 +129,146 @@
         </div>
     </div>
 
-    <!-- Second Background Image -->
+    <!-- SECOND BACKGROUND IMAGE -->
     <div class="bgimg-2">
-<!--        <div class="caption">-->
-<!--            <span class="border">LESS HEIGHT</span>-->
-<!--        </div>-->
+<!--        <div class="caption"><span class="border">LESS HEIGHT</span></div>-->
     </div>
 
-    <!-- Second Info Pane -->
-    <div id="secondPane" style="position:relative;">
-        <div style="color:#777; background-color:white; padding:50px 80px; text-align: justify;">
-            <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+    <!-- SECOND INFO PANE -->
+    <div id="secondPane" style="background-color:white; padding:50px 80px; text-align: justify;">
+
+        <!-- Title -->
+        <h3 style="text-align:center;">Global<br>Academics</h3>
+
+        <!-- Western University -->
+        <div class="row educationRow">
+            <div class="col-md-1"></div>
+            <div class="col-md-2">
+                <p class="educationYear">
+                    2014 – Present
+                </p>
+            </div>
+            <div class="col-md-9">
+                <p class="educationTitle">
+                    UNIVERSITY OF WESTERN ONTARIO – Faculty of Science
+                </p>
+                <ul>
+                    <li class="educationBullet">Honors Double Major in Medical Sciences and Computer Sciences candidate</li>
+                    <li class="educationBullet">Certificate in Practical French</li>
+                    <li class="educationBullet">Global Academics Program. VP Social Media in the Western French Club. Dean's Honor Roll, 2014 - Present.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Harvard University -->
+        <div class="row educationRow">
+            <div class="col-md-1"></div>
+            <div class="col-md-2">
+                <p class="educationYear">
+                    2016 – Present
+                </p>
+            </div>
+            <div class="col-md-9">
+                <p class="educationTitle">
+                    HARVARD UNIVERSITY – edX Extension School
+                </p>
+                <ul>
+                    <li class="educationBullet">Comprehensive introduction to Computer Science, including
+                        algorithms, security, and resource management</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- UC Berkeley -->
+        <div class="row educationRow">
+            <div class="col-md-1"></div>
+            <div class="col-md-2">
+                <p class="educationYear">
+                    2016
+                </p>
+            </div>
+            <div class="col-md-9">
+                <p class="educationTitle">UNIVERSITY OF CALIFORNIA, BERKELEY – Faculty of Electrical Engineering and Computer Sciences (EECS)</p>
+                <ul>
+                    <li class="educationBullet">Intensive eight-week summer sessions, 6 total units</li>
+                    <li class="educationBullet">Completed CS 61C (Machine Structures) and Psych 7 (Big Data)</li>
+                    <li class="educationBullet">Machine Structures teaches the internal organization and operation of
+                        digital computers, emphasizing on advances in parallelism. The subjects covered include C
+                        and assembly language programming, memory management, how higher level programs are translated
+                        into machine language, computer organization, caches, performance measurement, parallelism,
+                        CPU design, warehouse-scale computing, and related topics.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- UdeM -->
+        <div class="row educationRow">
+            <div class="col-md-1"></div>
+            <div class="col-md-2">
+                <p class="educationYear">
+                    2015
+                </p>
+            </div>
+            <div class="col-md-9">
+                <p class="educationTitle">
+                    UNIVERSITÉ DE MONTRÉAL – Faculty of French Language and Literature
+                </p>
+                <ul>
+                    <li class="educationBullet">Explore Bursary Recipient, chosen by the Council of Ministers of Education, Canada (CMEC)</li>
+                    <li class="educationBullet">Intensive five-week language immersion program in Montreal</li>
+                    <li class="educationBullet">The program stresses communication, putting the emphasis on oral
+                        communication without neglecting the written aspect. Students also learn various grammatical
+                        notions that are invaluable for communicating in French.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- UdeM -->
+        <div class="row educationRow">
+            <div class="col-md-1"></div>
+            <div class="col-md-2">
+                <p class="educationYear">
+                    2010 – 2014
+                </p>
+            </div>
+            <div class="col-md-9">
+                <p class="educationTitle">
+                    MOTHER TERESA SECONDARY SCHOOL
+                </p>
+                <ul>
+                    <li class="educationBullet">Certificate of successful French Immersion program completion</li>
+                    <li class="educationBullet">Received the Physics award, for the highest grade of the graduating class
+                        in Grade 12 University-level Physics</li>
+                </ul>
+            </div>
         </div>
     </div>
 
-    <!-- Third Background Image -->
+    <!-- AWARDS -->
+    <div id="awards" style="background-color:#f5f5f5; padding:50px 80px; text-align: justify;">
+        <p style="text-align: center; padding-bottom: 3%">
+            <img src="./assets/img/pinkribbon.png" alt="Awards" width="310px"></img>
+        </p>
+        <p style="text-align: center; font-size: 17pt; font-weight: 100">
+            <span class="awardTitle">Western University In-Course Scholarship,</span> Recipient, 2016<br>
+            <span class="awardTitle">Best Hack to Improve Patient Wait Times in Hospitals,</span> Recipient, 2016<br>
+            <span class="awardTitle">Magnet Forensics: Cracking the Code Challenge, Third Place Winner,</span> 2016<br>
+            <span class="awardTitle">Western International Learning Award,</span> Recipient, 2016<br>
+            <span class="awardTitle">Queen Elizabeth II Silver Jubilee Endowment Fund,</span> Recipient, 2016<br>
+            <span class="awardTitle">Robert and Ruth Lumsden Scholarships in Science,</span> Recipient, 2015<br>
+            <span class="awardTitle">Western University Scholarship of Excellence,</span> Recipient, 2014<br>
+            <span class="awardTitle">Student of Distinction Award,</span> Recipient, 2014<br>
+        </p>
+    </div>
+
+    <!-- THIRD BACKGROUND IMAGE -->
     <div class="bgimg-3">
-        <div class="caption">
-            <span class="border">SCROLL UP</span>
-        </div>
+<!--        <div class="caption"><span class="border">SCROLL UP</span></div>-->
     </div>
 
-    <!-- Third Info Pane -->
-    <div id="thirdPane" style="position:relative;">
-        <div style="color:#777; background-color:white; padding:50px 80px; text-align: justify;">
+    <!-- THIRD INFO PANE -->
+    <div id="thirdPane" style="background-color:white; padding:50px 80px; text-align: justify;">
+        <div>
             <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
         </div>
     </div>

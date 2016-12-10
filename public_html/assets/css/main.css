@@ -2,7 +2,7 @@
 body, html {
     /* Allows the header image to fit the whole screen */
     height: 100%;
-    font: 400 17px/1.8 "Lato", sans-serif;
+    font: 400 17px/1.8 "Roboto", sans-serif;
     color: #3e3e3b;
 }
 
@@ -128,10 +128,38 @@ body, html {
 
 .profilePic {
     text-align:center;
-    padding-top: 7.8%;
+    padding-top: 11%;
 }
 
-/* ================================================== TEXT ================================================== */
+/* ================================================== GLOBAL ACADEMICS ============================================ */
+
+.educationRow {
+    padding-bottom: 2.5%;
+}
+
+.educationYear {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.educationTitle {
+    color: #DF4244;
+    margin-left:50px;
+}
+
+.educationBullet {
+    margin-left:100px;
+    font-style: italic;
+    line-height: 135%;
+    text-align: left;
+    font-size: 13pt;
+}
+
+.awardTitle {
+    font-weight: 400;
+}
+
+/* ================================================== MISC. TEXT ================================================== */
 
 .caption {
     position: absolute;
@@ -147,7 +175,6 @@ body, html {
 }
 
 #headerTitle {
-    font-family: Roboto;
     font-size: 35pt;
     font-weight: 500;
     letter-spacing: 1px;
@@ -176,8 +203,6 @@ h3 {
     padding-bottom: 5%;
 }
 
-/* ================================================== TEXT ================================================== */
-
 footer {
     background-color: #3e3e3b;
     /* Padding: Top Right Bottom Left*/
@@ -187,5 +212,5 @@ footer {
 footer h3 {
     color: white;
     font-size: 20px;
-    padding-bottom: 0px;
+    padding-bottom: 0;
 }
