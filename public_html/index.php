@@ -10,6 +10,8 @@
     <meta name="description" content="My Personal Website">
     <meta name="author" content="Alex Madrzyk">
     <title>Alex Madrzyk</title>
+    <!-- Force Desktop View (for now) -->
+    <meta name="viewport" content="width=1024">
 
     <!--=============================================== CSS FILES ===============================================-->
 
