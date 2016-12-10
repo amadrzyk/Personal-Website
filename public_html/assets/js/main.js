@@ -4,7 +4,6 @@
  */
 
 (function($) {
-
     $.fn.parallax = function(options) {
 
         var windowHeight = $(window).height();
@@ -65,7 +64,7 @@ $('.bgimg-1, .bgimg-2, .bgimg-3').parallax({
         t(".navbar-toggle:visible").click()
     }), t("#mainNav").affix({
         offset: {
-            top: 600
+            top: 580
         }
     })
 }(jQuery);

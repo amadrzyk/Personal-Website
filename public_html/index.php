@@ -12,20 +12,25 @@
     <title>Alex Madrzyk</title>
 
     <!--=============================================== CSS FILES ===============================================-->
+
+    <!-- Normalize (https://github.com/necolas/normalize.css) -->
+    <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
     <!-- Theme CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
 
     <!-- Custom Fonts -->
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,200,300,400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,800,300' rel='stylesheet' type='text/css'>
 
     <!-- Custom Page Element Styles -->
     <link rel="stylesheet" type="text/css" href="page_elements/css/hover_button.css">
+    <link rel="stylesheet" type="text/css" href="page_elements/css/portfolio.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -46,20 +51,22 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">HOME</a>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
+                </a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#firstPane">About Me</a>
+                        <a class="page-scroll" href="#firstPane">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#secondPane">Features</a>
+                        <a class="page-scroll" href="#secondPane">Academics</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#thirdPane">Contact</a>
+                        <a class="page-scroll" href="#thirdPane">Work</a>
                     </li>
                 </ul>
             </div>
@@ -267,10 +274,15 @@
     </div>
 
     <!-- THIRD INFO PANE -->
-    <div id="thirdPane" style="background-color:white; padding:50px 80px; text-align: justify;">
-        <div>
-            <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
-        </div>
+    <div id="thirdPane" style="background-color:white; padding:50px 0; text-align: justify;">
+
+        <!-- Title -->
+        <h3 style="text-align:center;">Projects &<br>Designs</h3>
+
+        <?php
+            include_once "page_elements/portfolio.html";
+        ?>
+
     </div>
 
     <footer id="footer">
@@ -293,6 +305,9 @@
 
     <!-- Theme JavaScript -->
     <script src="assets/js/main.js"></script>
+
+    <!-- Custom Page Element JavaScript -->
+    <script src="page_elements/js/portfolio.js" type="text/javascript"></script>
 </body>
 
 </html>

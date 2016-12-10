@@ -6,6 +6,11 @@ body, html {
     color: #3e3e3b;
 }
 
+a {
+    color: #3e3e3b;
+    text-decoration: none!important;
+}
+
 /* ================================================== NAVBAR ==================================================== */
 
 .navbar-default {
@@ -18,11 +23,11 @@ body, html {
     font-weight: 200;
     letter-spacing: 1px;
 }
-.navbar-default .navbar-header .navbar-brand {
+.navbar-default .navbar-header .navbar-brand, glyphicon-chevron-up{
     font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
     font-weight: 300;
     letter-spacing: 1px;
-    color: #fdcc52;
+    color: #3e3e3b;
 }
 /*.navbar-default .navbar-header .navbar-brand:hover,*/
 /*.navbar-default .navbar-header .navbar-brand:focus {*/
@@ -47,7 +52,7 @@ body, html {
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-    color: #fdcc52;
+    color: #a5a5a5;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
@@ -63,11 +68,13 @@ body, html {
         background-color: transparent;
         border-color: transparent;
     }
-    .navbar-default .navbar-header .navbar-brand {
+    .navbar-default .navbar-header .navbar-brand, glyphicon-chevron-up {
         color: rgba(255, 255, 255, 0);
     }
     .navbar-default .navbar-header .navbar-brand:hover,
-    .navbar-default .navbar-header .navbar-brand:focus {
+    .navbar-default .navbar-header .navbar-brand:focus,
+    glyphicon-chevron-up:hover,
+    glyphicon-chevron-up:focus {
         color: rgba(255, 255, 255, 0);
     }
     .navbar-default .nav > li > a,
@@ -82,11 +89,13 @@ body, html {
         background-color: white;
         border-color: rgba(34, 34, 34, 0.1);
     }
-    .navbar-default.affix .navbar-header .navbar-brand {
-        color: #222222;
+    .navbar-default.affix .navbar-header .navbar-brand, glyphicon-chevron-up{
+        color: #3e3e3b;
     }
     .navbar-default.affix .navbar-header .navbar-brand:hover,
-    .navbar-default.affix .navbar-header .navbar-brand:focus {
+    .navbar-default.affix .navbar-header .navbar-brand:focus,
+    glyphicon-chevron-up:hover,
+    glyphicon-chevron-up:focus{
         color: #a5a5a5;
     }
     .navbar-default.affix .nav > li > a,
@@ -161,6 +170,10 @@ body, html {
 
 /* ================================================== MISC. TEXT ================================================== */
 
+a:hover {
+    text-decoration: none!important;
+}
+
 .caption {
     position: absolute;
     left: 0;
@@ -171,7 +184,7 @@ body, html {
 }
 
 #title {
-    top: 36%;
+    top: 39.5%;
 }
 
 #headerTitle {
@@ -203,6 +216,10 @@ h3 {
     padding-bottom: 5%;
 }
 
+#thirdPane h3 {
+    padding-bottom: 0;
+}
+
 footer {
     background-color: #3e3e3b;
     /* Padding: Top Right Bottom Left*/
@@ -213,4 +230,15 @@ footer h3 {
     color: white;
     font-size: 20px;
     padding-bottom: 0;
+}
+
+.projects {
+    font-size: 24px;
+    line-height: 29px;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    /*text-transform: uppercase;*/
+    text-align: center;
+    /*letter-spacing: 14px;*/
+    padding-bottom: 3%;
 }
