@@ -20,7 +20,7 @@ a {
     -moz-transition: all 0.35s;
     transition: all 0.35s;
     font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-    font-weight: 200;
+    font-weight: 100;
     letter-spacing: 1px;
 }
 .navbar-default .navbar-header .navbar-brand, glyphicon-chevron-up{
