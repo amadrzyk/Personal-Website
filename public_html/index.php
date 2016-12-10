@@ -10,8 +10,6 @@
     <meta name="description" content="My Personal Website">
     <meta name="author" content="Alex Madrzyk">
     <title>Alex Madrzyk</title>
-    <!-- Force Desktop View (for now) -->
-<!--    <meta name="viewport" content="width=1024">-->
 
     <!--=============================================== CSS FILES ===============================================-->
 
@@ -28,7 +26,7 @@
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='//fonts.googleapis.com/css?family=Lato:100,200,300,400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href="//fonts.googleapis.com/css?family=Raleway:400,800,300' rel='stylesheet' type='text/css'>
+    <link href=''//fonts.googleapis.com/css?family=Raleway:400,800,300' rel='stylesheet' type='text/css'>
 
     <!-- Custom Page Element Styles -->
     <link rel="stylesheet" type="text/css" href="page_elements/css/hover_button.css">
@@ -131,7 +129,7 @@
             <div class="col-md-5"></div>
             <div class="col-md-2">
                 <?php
-                include_once "page_elements/hover_button.html";
+                    include_once "page_elements/hover_button.html";
                 ?>
             </div>
             <div class="col-md-5"></div>
@@ -157,7 +155,7 @@
                     2014 – Present
                 </p>
             </div>
-            <div class="col-md-9">
+            <div class="col-md-5">
                 <p class="educationTitle">
                     UNIVERSITY OF WESTERN ONTARIO – Faculty of Science
                 </p>
@@ -167,6 +165,14 @@
                     <li class="educationBullet">Global Academics Program. VP Social Media in the Western French Club. Dean's Honor Roll, 2014 - Present.</li>
                 </ul>
             </div>
+            <div class="col-md-3">
+                <a href="http://www.csd.uwo.ca/">
+                    <p class="educationLogo">
+                        <img src="./assets/img/education/western.gif" alt="WesternU" height="90px""></img>
+                    </p>
+                </a>
+            </div>
+            <div class="col-md-1"></div>
         </div>
 
         <!-- Harvard University -->
@@ -177,7 +183,7 @@
                     2016 – Present
                 </p>
             </div>
-            <div class="col-md-9">
+            <div class="col-md-5">
                 <p class="educationTitle">
                     HARVARD UNIVERSITY – edX Extension School
                 </p>
@@ -186,6 +192,14 @@
                         algorithms, security, and resource management</li>
                 </ul>
             </div>
+            <div class="col-md-3">
+                <a href="//www.edx.org/course/introduction-computer-science-harvardx-cs50x">
+                    <p class="educationLogo">
+                        <img src="./assets/img/education/harvardx.png" alt="HarvardX" height="74px""></img>
+                    </p>
+                </a>
+            </div>
+            <div class="col-md-1"></div>
         </div>
 
         <!-- UC Berkeley -->
@@ -196,7 +210,7 @@
                     2016
                 </p>
             </div>
-            <div class="col-md-9">
+            <div class="col-md-5">
                 <p class="educationTitle">UNIVERSITY OF CALIFORNIA, BERKELEY – Faculty of Electrical Engineering and Computer Sciences (EECS)</p>
                 <ul>
                     <li class="educationBullet">Intensive eight-week summer sessions, 6 total units</li>
@@ -208,6 +222,14 @@
                         CPU design, warehouse-scale computing, and related topics.</li>
                 </ul>
             </div>
+            <div class="col-md-3">
+                <a href="http://www-inst.eecs.berkeley.edu/~cs61c/su16/">
+                    <p class="educationLogo">
+                        <img src="./assets/img/education/berkeley.png" alt="UCBerkeley" height="90px""></img>
+                    </p>
+                </a>
+            </div>
+            <div class="col-md-1"></div>
         </div>
 
         <!-- UdeM -->
@@ -218,21 +240,29 @@
                     2015
                 </p>
             </div>
-            <div class="col-md-9">
+            <div class="col-md-5">
                 <p class="educationTitle">
                     UNIVERSITÉ DE MONTRÉAL – Faculty of French Language and Literature
                 </p>
                 <ul>
-                    <li class="educationBullet">Explore Bursary Recipient, chosen by the Council of Ministers of Education, Canada (CMEC)</li>
+                    <li class="educationBullet">Explore Bursary Recipient, chosen by the Council of Ministers of Education, Canada</li>
                     <li class="educationBullet">Intensive five-week language immersion program in Montreal</li>
                     <li class="educationBullet">The program stresses communication, putting the emphasis on oral
                         communication without neglecting the written aspect. Students also learn various grammatical
                         notions that are invaluable for communicating in French.</li>
                 </ul>
             </div>
+            <div class="col-md-3">
+                <a href="http://ecoledelangues.umontreal.ca/en/programs/french-as-a-second-language/explore-bursary/">
+                    <p class="educationLogo">
+                        <img src="./assets/img/education/udem.svg" alt="UdeM" height="90px""></img>
+                    </p>
+                </a>
+            </div>
+            <div class="col-md-1"></div>
         </div>
 
-        <!-- UdeM -->
+        <!-- MTS -->
         <div class="row educationRow">
             <div class="col-md-1"></div>
             <div class="col-md-2">
@@ -240,7 +270,7 @@
                     2010 – 2014
                 </p>
             </div>
-            <div class="col-md-9">
+            <div class="col-md-5">
                 <p class="educationTitle">
                     MOTHER TERESA SECONDARY SCHOOL
                 </p>
@@ -250,6 +280,14 @@
                         in Grade 12 University-level Physics</li>
                 </ul>
             </div>
+            <div class="col-md-3">
+                <a href="http://www.ldcsb.ca/school/MTS/Pages/default.aspx">
+                    <p class="educationLogo">
+                        <img src="./assets/img/education/mts.jpg" alt="MTS" height="110px""></img>
+                    </p>
+                </a>
+            </div>
+            <div class="col-md-1"></div>
         </div>
     </div>
 

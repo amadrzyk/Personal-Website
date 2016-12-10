@@ -140,6 +140,11 @@ a {
     padding-top: 11%;
 }
 
+.educationLogo {
+    text-align:center;
+    padding-left: 70px;
+}
+
 /* ================================================== GLOBAL ACADEMICS ============================================ */
 
 .educationRow {
@@ -153,11 +158,11 @@ a {
 
 .educationTitle {
     color: #DF4244;
-    margin-left:50px;
+    /*margin-left:50px;*/
 }
 
 .educationBullet {
-    margin-left:100px;
+    /*margin-left:100px;*/
     font-style: italic;
     line-height: 135%;
     text-align: left;
