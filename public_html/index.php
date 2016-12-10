@@ -166,11 +166,11 @@
                 </ul>
             </div>
             <div class="col-md-3">
-                <a href="http://www.csd.uwo.ca/">
-                    <p class="educationLogo">
+                <p class="educationLogo">
+                    <a href="http://www.csd.uwo.ca/">
                         <img src="./assets/img/education/western.gif" alt="WesternU" height="90px""></img>
-                    </p>
-                </a>
+                    </a>
+                </p>
             </div>
             <div class="col-md-1"></div>
         </div>
@@ -193,11 +193,11 @@
                 </ul>
             </div>
             <div class="col-md-3">
-                <a href="//www.edx.org/course/introduction-computer-science-harvardx-cs50x">
-                    <p class="educationLogo">
+                <p class="educationLogo">
+                    <a href="//www.edx.org/course/introduction-computer-science-harvardx-cs50x">
                         <img src="./assets/img/education/harvardx.png" alt="HarvardX" height="74px""></img>
-                    </p>
-                </a>
+                    </a>
+                </p>
             </div>
             <div class="col-md-1"></div>
         </div>
@@ -223,11 +223,11 @@
                 </ul>
             </div>
             <div class="col-md-3">
-                <a href="http://www-inst.eecs.berkeley.edu/~cs61c/su16/">
-                    <p class="educationLogo">
+                <p class="educationLogo">
+                    <a href="http://www-inst.eecs.berkeley.edu/~cs61c/su16/">
                         <img src="./assets/img/education/berkeley.png" alt="UCBerkeley" height="90px""></img>
-                    </p>
-                </a>
+                    </a>
+                </p>
             </div>
             <div class="col-md-1"></div>
         </div>
@@ -253,11 +253,11 @@
                 </ul>
             </div>
             <div class="col-md-3">
-                <a href="http://ecoledelangues.umontreal.ca/en/programs/french-as-a-second-language/explore-bursary/">
-                    <p class="educationLogo">
+                <p class="educationLogo">
+                    <a href="http://ecoledelangues.umontreal.ca/en/programs/french-as-a-second-language/explore-bursary/">
                         <img src="./assets/img/education/udem.svg" alt="UdeM" height="90px""></img>
-                    </p>
-                </a>
+                    </a>
+                </p>
             </div>
             <div class="col-md-1"></div>
         </div>
@@ -281,11 +281,11 @@
                 </ul>
             </div>
             <div class="col-md-3">
-                <a href="http://www.ldcsb.ca/school/MTS/Pages/default.aspx">
-                    <p class="educationLogo">
+                <p class="educationLogo">
+                    <a href="http://www.ldcsb.ca/school/MTS/Pages/default.aspx">
                         <img src="./assets/img/education/mts.jpg" alt="MTS" height="110px""></img>
-                    </p>
-                </a>
+                    </a>
+                </p>
             </div>
             <div class="col-md-1"></div>
         </div>
