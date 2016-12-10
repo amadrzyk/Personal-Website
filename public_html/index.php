@@ -11,7 +11,7 @@
     <meta name="author" content="Alex Madrzyk">
     <title>Alex Madrzyk</title>
     <!-- Force Desktop View (for now) -->
-    <meta name="viewport" content="width=1024">
+<!--    <meta name="viewport" content="width=1024">-->
 
     <!--=============================================== CSS FILES ===============================================-->
 
@@ -27,8 +27,8 @@
     <!-- Custom Fonts -->
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,200,300,400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,800,300' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Lato:100,200,300,400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,800,300' rel='stylesheet' type='text/css'>
 
     <!-- Custom Page Element Styles -->
     <link rel="stylesheet" type="text/css" href="page_elements/css/hover_button.css">
