@@ -23,7 +23,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
 
     <!-- Custom Fonts -->
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='//fonts.googleapis.com/css?family=Lato:100,200,300,400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href=''//fonts.googleapis.com/css?family=Raleway:400,800,300' rel='stylesheet' type='text/css'>
@@ -79,10 +79,15 @@
 
     <!-- HEADER TITLE -->
     <div class="bgimg-1">
-        <div class="caption" id="title">
-            <span class="border" id="headerTitle"> Alex Madrzyk </span>
-        </div>
+<!--        <div class="caption" id="title" style="display: table;">-->
+<!--            <div style="display: table-cell; vertical-align: middle;">-->
+<!--                <div>-->
+<!--                    <span class="border" id="headerTitle"> Alex Madrzyk </span>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
     </div>
+<!--    <div class="headerText"></div>-->
 
     <!-- FIRST INFO PANE -->
     <div id="firstPane" style="background-color:white; padding:50px 80px; text-align: justify;">
@@ -165,14 +170,13 @@
                     <li class="educationBullet">Global Academics Program. VP Social Media in the Western French Club. Dean's Honor Roll, 2014 - Present.</li>
                 </ul>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <p class="educationLogo">
                     <a href="http://www.csd.uwo.ca/">
                         <img src="./assets/img/education/western.gif" alt="WesternU" height="90px""></img>
                     </a>
                 </p>
             </div>
-            <div class="col-md-1"></div>
         </div>
 
         <!-- Harvard University -->
@@ -192,14 +196,13 @@
                         algorithms, security, and resource management</li>
                 </ul>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <p class="educationLogo">
                     <a href="//www.edx.org/course/introduction-computer-science-harvardx-cs50x">
                         <img src="./assets/img/education/harvardx.png" alt="HarvardX" height="74px""></img>
                     </a>
                 </p>
             </div>
-            <div class="col-md-1"></div>
         </div>
 
         <!-- UC Berkeley -->
@@ -222,14 +225,13 @@
                         CPU design, warehouse-scale computing, and related topics.</li>
                 </ul>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <p class="educationLogo">
                     <a href="http://www-inst.eecs.berkeley.edu/~cs61c/su16/">
                         <img src="./assets/img/education/berkeley.png" alt="UCBerkeley" height="90px""></img>
                     </a>
                 </p>
             </div>
-            <div class="col-md-1"></div>
         </div>
 
         <!-- UdeM -->
@@ -252,14 +254,13 @@
                         notions that are invaluable for communicating in French.</li>
                 </ul>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <p class="educationLogo">
                     <a href="http://ecoledelangues.umontreal.ca/en/programs/french-as-a-second-language/explore-bursary/">
                         <img src="./assets/img/education/udem.svg" alt="UdeM" height="90px""></img>
                     </a>
                 </p>
             </div>
-            <div class="col-md-1"></div>
         </div>
 
         <!-- MTS -->
@@ -280,14 +281,13 @@
                         in Grade 12 University-level Physics</li>
                 </ul>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <p class="educationLogo">
                     <a href="http://www.ldcsb.ca/school/MTS/Pages/default.aspx">
                         <img src="./assets/img/education/mts.jpg" alt="MTS" height="110px""></img>
                     </a>
                 </p>
             </div>
-            <div class="col-md-1"></div>
         </div>
     </div>
 

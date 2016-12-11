@@ -110,10 +110,10 @@ a {
 
 /* ================================================== PARALLAX ================================================== */
 
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1, .bgimg-2, .bgimg-3, .headerText {
     position: relative;
     background-attachment: fixed;
-    /*background-position: center;*/
+    background-position: 50% 0;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -121,8 +121,20 @@ a {
 /* ================================================== IMAGES ================================================== */
 
 .bgimg-1 {
-    background-image: url("../img/header.jpg");
+    background-image: url("../img/header_text.png"), url("../img/header.jpg");
     min-height: 100%;
+}
+
+/*.headerText {*/
+    /*background-image: url("../img/header_text.png");*/
+    /*height: 100%;*/
+    /*position: absolute;*/
+    /*z-index: 10;*/
+    /*top: 0;*/
+/*}*/
+
+#title {
+    /*top: 39.5%;*/
 }
 
 .bgimg-2 {
@@ -142,7 +154,7 @@ a {
 
 .educationLogo {
     text-align:center!important;
-    padding-left: 70px!important;
+    /*padding-left: 70px!important;*/
 }
 
 /* ================================================== GLOBAL ACADEMICS ============================================ */
@@ -154,6 +166,7 @@ a {
 .educationYear {
     font-style: italic;
     font-weight: lighter;
+    /*font-size: x-large;*/
 }
 
 .educationTitle {
@@ -186,10 +199,6 @@ a:hover {
     width: 100%;
     text-align: center;
     color: #000;
-}
-
-#title {
-    top: 39.5%;
 }
 
 #headerTitle {
