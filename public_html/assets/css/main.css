@@ -133,9 +133,9 @@ a {
     /*top: 0;*/
 /*}*/
 
-#title {
+/*#title {*/
     /*top: 39.5%;*/
-}
+/*}*/
 
 .bgimg-2 {
     background-image: url("../img/explore.jpg");
@@ -171,6 +171,7 @@ a {
 
 .educationTitle {
     color: #DF4244;
+    text-align: left;
     /*margin-left:50px;*/
 }
 
@@ -184,6 +185,12 @@ a {
 
 .awardTitle {
     font-weight: 400;
+}
+
+.aboutme a, .fakeIn{
+    color: #c11603;
+    font-weight: 800;
+    cursor: pointer;
 }
 
 /* ================================================== MISC. TEXT ================================================== */

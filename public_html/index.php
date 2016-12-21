@@ -22,11 +22,12 @@
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='//fonts.googleapis.com/css?family=Lato:100,200,300,400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href=''//fonts.googleapis.com/css?family=Raleway:400,800,300' rel='stylesheet' type='text/css'>
+    <link href="//fonts.googleapis.com/css?family=Lato:100,200,300,400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,800,300" rel="stylesheet" type="text/css">
 
     <!-- Theme CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/tachyons.min.css"/>
 
     <!-- Custom Page Element Styles -->
     <link rel="stylesheet" type="text/css" href="page_elements/css/hover_button.css">
@@ -111,7 +112,7 @@
             </div>
             <div class="col-lg-4">
                 <p class="profilePic">
-                    <img src="./assets/img/me.png" alt="Alex Madrzyk" height="220px" width="220px"></img>
+                    <img src="./assets/img/me.png" alt="Alex Madrzyk" height="220px" width="220px"/>
                 </p>
             </div>
             <div class="col-lg-4">
@@ -173,7 +174,7 @@
             <div class="col-md-4">
                 <p class="educationLogo">
                     <a href="http://www.csd.uwo.ca/">
-                        <img src="./assets/img/education/western.gif" alt="WesternU" height="90px""></img>
+                        <img src="./assets/img/education/western.gif" alt="WesternU" height="90px""/>
                     </a>
                 </p>
             </div>
@@ -199,7 +200,7 @@
             <div class="col-md-4">
                 <p class="educationLogo">
                     <a href="//www.edx.org/course/introduction-computer-science-harvardx-cs50x">
-                        <img src="./assets/img/education/harvardx.png" alt="HarvardX" height="74px""></img>
+                        <img src="./assets/img/education/harvardx.png" alt="HarvardX" height="74px""/>
                     </a>
                 </p>
             </div>
@@ -228,7 +229,7 @@
             <div class="col-md-4">
                 <p class="educationLogo">
                     <a href="http://www-inst.eecs.berkeley.edu/~cs61c/su16/">
-                        <img src="./assets/img/education/berkeley.png" alt="UCBerkeley" height="90px""></img>
+                        <img src="./assets/img/education/berkeley.png" alt="UCBerkeley" height="90px""/>
                     </a>
                 </p>
             </div>
@@ -257,7 +258,7 @@
             <div class="col-md-4">
                 <p class="educationLogo">
                     <a href="http://ecoledelangues.umontreal.ca/en/programs/french-as-a-second-language/explore-bursary/">
-                        <img src="./assets/img/education/udem.svg" alt="UdeM" height="90px""></img>
+                        <img src="./assets/img/education/udem.svg" alt="UdeM" height="90px""/>
                     </a>
                 </p>
             </div>
@@ -284,17 +285,22 @@
             <div class="col-md-4">
                 <p class="educationLogo">
                     <a href="http://www.ldcsb.ca/school/MTS/Pages/default.aspx">
-                        <img src="./assets/img/education/mts.jpg" alt="MTS" height="110px""></img>
+                        <img src="./assets/img/education/mts.jpg" alt="MTS" height="110px""/>
                     </a>
                 </p>
             </div>
         </div>
+
+<!--        <php -->
+<!--        include_once "./page_elements/more_info.html";-->
+<!--        ?>-->
+
     </div>
 
     <!-- AWARDS -->
     <div id="awards" style="background-color:#f5f5f5; padding:50px 80px; text-align: justify;">
         <p style="text-align: center; padding-bottom: 3%">
-            <img src="./assets/img/pinkribbon.png" alt="Awards" width="310px"></img>
+            <img src="./assets/img/pinkribbon.png" alt="Awards" width="310px"/>
         </p>
         <p style="text-align: center; font-size: 17pt; font-weight: 100">
             <span class="awardTitle">Western University In-Course Scholarship,</span> Recipient, 2016<br>
