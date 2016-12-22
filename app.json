@@ -1,7 +1,7 @@
 {
-  "name": "Blank PHP Heroku Project",
-  "description": "Blank PHP Project for Quick deploy to Heroku with partial NOB API implemented",
-  "repository": "https://github.com/nobodyrandom/blank-bootstrap.git",
-  "logo": "https://developersfoundation.ca/assets/img/logo.png",
-  "keywords": ["php", "heroku", "blank", "template", "nob"]
+  "name": "TimeToCare",
+  "description": "Hack Western 3 Project Submission",
+  "repository": "https://github.com/alexmadrzyk/timetocare.git",
+  "logo": "http://www.timetocare.me/img/TimeToCareLogo.png",
+  "keywords": ["timetocare", "time", "to", "care", "hackwestern"]
 }

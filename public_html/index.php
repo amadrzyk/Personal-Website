@@ -199,21 +199,21 @@
             <div class="col-md-3"></div>
             <div class="col-md-2">
                 <div class="footerImg">
-                    <a style="text-align: center;" href="//linkedin.com/in/alex-madrzyk-775759b9">
+                    <a href="//linkedin.com/in/alex-madrzyk-775759b9">
                         <img src="./assets/img/footer/linkedin.jpg" alt="Linkedin" width="195px"/>
                     </a>
                 </div>
             </div>
             <div class="col-md-2">
                 <div class="footerImg image">
-                    <a style="text-align: center;" href="mailto:alexmadrzyk@gmail.com">
+                    <a href="mailto:alexmadrzyk@gmail.com">
                         <img src="./assets/img/footer/email.jpg" alt="Email" width="195px"/>
                     </a>
                 </div>
             </div>
             <div class="col-md-2">
                 <div class="footerImg">
-                    <a style="text-align: center;" href="//github.com/amadrzyk">
+                    <a href="//github.com/amadrzyk">
                         <img src="./assets/img/footer/github.jpg" alt="GitHub" width="195px"/>
                     </a>
                 </div>
