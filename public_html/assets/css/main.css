@@ -157,6 +157,39 @@ a {
     /*padding-left: 70px!important;*/
 }
 
+/*a.darkenImg {*/
+    /*display: block;*/
+    /*background: black;*/
+    /*padding: 0;*/
+/*}*/
+
+/*a.darkenImg img {*/
+    /*display: block;*/
+    /*-webkit-transition: all 0.08s linear;*/
+    /*-moz-transition: all 0.08s linear;*/
+    /*-o-transition: all 0.08s linear;*/
+    /*transition: all 0.08s linear;*/
+/*}*/
+
+/*a.darkenImg:hover img {*/
+    /*opacity: 0.7;*/
+/*}*/
+
+.footerImg {
+    display: inline-block;
+    background-color: black;
+    margin: auto;
+}
+
+.footerImg img {
+    display: inline-block;
+    margin:auto;
+}
+
+.footerImg img:hover {
+    opacity: 0.8;
+}
+
 /* ================================================== GLOBAL ACADEMICS ============================================ */
 
 .educationRow {
@@ -229,6 +262,17 @@ a:hover {
     letter-spacing: 10px;
 }
 
+.projects {
+    font-size: 24px;
+    line-height: 29px;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    /*text-transform: uppercase;*/
+    text-align: center;
+    /*letter-spacing: 14px;*/
+    padding-bottom: 3%;
+}
+
 h3 {
     letter-spacing: 14px;
     text-transform: uppercase;
@@ -244,22 +288,27 @@ h3 {
 footer {
     background-color: #3e3e3b;
     /* Padding: Top Right Bottom Left*/
-    padding: 10px 10px 20px 40px;
+    padding-top: 10px;
+    padding-bottom: 1px;
 }
 
 footer h3 {
     color: white;
-    font-size: 20px;
+    font-family: 'Lato', 'sans-serif';
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 400;
     padding-bottom: 0;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: none;
 }
 
-.projects {
-    font-size: 24px;
-    line-height: 29px;
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    /*text-transform: uppercase;*/
-    text-align: center;
-    /*letter-spacing: 14px;*/
-    padding-bottom: 3%;
+footer p {
+    color: white;
+    text-align: right;
+    padding-right: 15px;
+    font-weight: 100;
+    font-size: 8pt;
 }
+

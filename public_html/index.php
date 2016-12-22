@@ -27,7 +27,6 @@
 
     <!-- Theme CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/tachyons.min.css"/>
 
     <!-- Custom Page Element Styles -->
     <link rel="stylesheet" type="text/css" href="page_elements/css/hover_button.css">
@@ -153,147 +152,10 @@
         <!-- Title -->
         <h3 style="text-align:center;">Global<br>Academics</h3>
 
-        <!-- Western University -->
-        <div class="row educationRow">
-            <div class="col-md-1"></div>
-            <div class="col-md-2">
-                <p class="educationYear">
-                    2014 – Present
-                </p>
-            </div>
-            <div class="col-md-5">
-                <p class="educationTitle">
-                    UNIVERSITY OF WESTERN ONTARIO – Faculty of Science
-                </p>
-                <ul>
-                    <li class="educationBullet">Honors Double Major in Medical Sciences and Computer Sciences candidate</li>
-                    <li class="educationBullet">Certificate in Practical French</li>
-                    <li class="educationBullet">Global Academics Program. VP Social Media in the Western French Club. Dean's Honor Roll, 2014 - Present.</li>
-                </ul>
-            </div>
-            <div class="col-md-4">
-                <p class="educationLogo">
-                    <a href="http://www.csd.uwo.ca/">
-                        <img src="./assets/img/education/western.gif" alt="WesternU" height="90px""/>
-                    </a>
-                </p>
-            </div>
-        </div>
-
-        <!-- Harvard University -->
-        <div class="row educationRow">
-            <div class="col-md-1"></div>
-            <div class="col-md-2">
-                <p class="educationYear">
-                    2016 – Present
-                </p>
-            </div>
-            <div class="col-md-5">
-                <p class="educationTitle">
-                    HARVARD UNIVERSITY – edX Extension School
-                </p>
-                <ul>
-                    <li class="educationBullet">Comprehensive introduction to Computer Science, including
-                        algorithms, security, and resource management</li>
-                </ul>
-            </div>
-            <div class="col-md-4">
-                <p class="educationLogo">
-                    <a href="//www.edx.org/course/introduction-computer-science-harvardx-cs50x">
-                        <img src="./assets/img/education/harvardx.png" alt="HarvardX" height="74px""/>
-                    </a>
-                </p>
-            </div>
-        </div>
-
-        <!-- UC Berkeley -->
-        <div class="row educationRow">
-            <div class="col-md-1"></div>
-            <div class="col-md-2">
-                <p class="educationYear">
-                    2016
-                </p>
-            </div>
-            <div class="col-md-5">
-                <p class="educationTitle">UNIVERSITY OF CALIFORNIA, BERKELEY – Faculty of Electrical Engineering and Computer Sciences (EECS)</p>
-                <ul>
-                    <li class="educationBullet">Intensive eight-week summer sessions, 6 total units</li>
-                    <li class="educationBullet">Completed CS 61C (Machine Structures) and Psych 7 (Big Data)</li>
-                    <li class="educationBullet">Machine Structures teaches the internal organization and operation of
-                        digital computers, emphasizing on advances in parallelism. The subjects covered include C
-                        and assembly language programming, memory management, how higher level programs are translated
-                        into machine language, computer organization, caches, performance measurement, parallelism,
-                        CPU design, warehouse-scale computing, and related topics.</li>
-                </ul>
-            </div>
-            <div class="col-md-4">
-                <p class="educationLogo">
-                    <a href="http://www-inst.eecs.berkeley.edu/~cs61c/su16/">
-                        <img src="./assets/img/education/berkeley.png" alt="UCBerkeley" height="90px""/>
-                    </a>
-                </p>
-            </div>
-        </div>
-
-        <!-- UdeM -->
-        <div class="row educationRow">
-            <div class="col-md-1"></div>
-            <div class="col-md-2">
-                <p class="educationYear">
-                    2015
-                </p>
-            </div>
-            <div class="col-md-5">
-                <p class="educationTitle">
-                    UNIVERSITÉ DE MONTRÉAL – Faculty of French Language and Literature
-                </p>
-                <ul>
-                    <li class="educationBullet">Explore Bursary Recipient, chosen by the Council of Ministers of Education, Canada</li>
-                    <li class="educationBullet">Intensive five-week language immersion program in Montreal</li>
-                    <li class="educationBullet">The program stresses communication, putting the emphasis on oral
-                        communication without neglecting the written aspect. Students also learn various grammatical
-                        notions that are invaluable for communicating in French.</li>
-                </ul>
-            </div>
-            <div class="col-md-4">
-                <p class="educationLogo">
-                    <a href="http://ecoledelangues.umontreal.ca/en/programs/french-as-a-second-language/explore-bursary/">
-                        <img src="./assets/img/education/udem.svg" alt="UdeM" height="90px""/>
-                    </a>
-                </p>
-            </div>
-        </div>
-
-        <!-- MTS -->
-        <div class="row educationRow">
-            <div class="col-md-1"></div>
-            <div class="col-md-2">
-                <p class="educationYear">
-                    2010 – 2014
-                </p>
-            </div>
-            <div class="col-md-5">
-                <p class="educationTitle">
-                    MOTHER TERESA SECONDARY SCHOOL
-                </p>
-                <ul>
-                    <li class="educationBullet">Certificate of successful French Immersion program completion</li>
-                    <li class="educationBullet">Received the Physics award, for the highest grade of the graduating class
-                        in Grade 12 University-level Physics</li>
-                </ul>
-            </div>
-            <div class="col-md-4">
-                <p class="educationLogo">
-                    <a href="http://www.ldcsb.ca/school/MTS/Pages/default.aspx">
-                        <img src="./assets/img/education/mts.jpg" alt="MTS" height="110px""/>
-                    </a>
-                </p>
-            </div>
-        </div>
-
-<!--        <php -->
-<!--        include_once "./page_elements/more_info.html";-->
-<!--        ?>-->
+        <?php
+            include_once "./page_elements/educationText.html";
+//            include_once "./page_elements/more_info.html";
+        ?>
 
     </div>
 
@@ -332,7 +194,33 @@
     </div>
 
     <footer id="footer">
-        <h3>Some Footer Text</h3>
+        <h3>Let's get in touch!</h3>
+        <div class="row" style="padding-top: 3%; padding-bottom: 3%;">
+            <div class="col-md-3"></div>
+            <div class="col-md-2">
+                <div class="footerImg">
+                    <a style="text-align: center;" href="//linkedin.com/in/alex-madrzyk-775759b9">
+                        <img src="./assets/img/footer/linkedin.jpg" alt="Linkedin" width="195px"/>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="footerImg image">
+                    <a style="text-align: center;" href="mailto:alexmadrzyk@gmail.com">
+                        <img src="./assets/img/footer/email.jpg" alt="Email" width="195px"/>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="footerImg">
+                    <a style="text-align: center;" href="//github.com/amadrzyk">
+                        <img src="./assets/img/footer/github.jpg" alt="GitHub" width="195px"/>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+<!--        <p>© Alex Madrzyk, 2016</p>-->
     </footer>
 
     <!--=============================================== JS SCRIPTS ==============================================-->
