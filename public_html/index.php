@@ -10,6 +10,8 @@
     <meta name="description" content="My Personal Website">
     <meta name="author" content="Alex Madrzyk">
     <title>Alex Madrzyk</title>
+    <link rel="shortcut icon" href="favicon.ico">
+
 
     <!--=============================================== CSS FILES ===============================================-->
 
@@ -39,7 +41,6 @@
     <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="./favicon.ico">
 
 </head>
 
