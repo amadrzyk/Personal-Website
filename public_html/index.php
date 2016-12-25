@@ -10,7 +10,7 @@
     <meta name="description" content="My Personal Website">
     <meta name="author" content="Alex Madrzyk">
     <title>Alex Madrzyk</title>
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
 
 
     <!--=============================================== CSS FILES ===============================================-->
@@ -114,7 +114,7 @@
             </div>
             <div class="col-lg-4">
                 <p class="profilePic">
-                    <img src="./assets/img/me.png" alt="Alex Madrzyk" height="220px" width="220px"/>
+                    <img src="assets/images/me.png" alt="Alex Madrzyk" height="220px" width="220px"/>
                 </p>
             </div>
             <div class="col-lg-4">
@@ -165,7 +165,7 @@
     <!-- AWARDS -->
     <div id="awards" style="background-color:#f5f5f5; padding:50px 80px; text-align: justify;">
         <p style="text-align: center; padding-bottom: 3%">
-            <img src="./assets/img/pinkribbon.png" alt="Awards" width="310px"/>
+            <img src="assets/images/pinkribbon.png" alt="Awards" width="310px"/>
         </p>
         <p style="text-align: center; font-size: 17pt; font-weight: 100">
             <span class="awardTitle">Western University In-Course Scholarship,</span> Recipient, 2016<br>
@@ -203,21 +203,21 @@
             <div class="col-md-2">
                 <div class="footerImg">
                     <a href="//linkedin.com/in/alex-madrzyk-775759b9" target="_blank">
-                        <img src="./assets/img/footer/linkedin.jpg" alt="Linkedin" width="195px"/>
+                        <img src="assets/images/footer/linkedin.jpg" alt="Linkedin" width="195px"/>
                     </a>
                 </div>
             </div>
             <div class="col-md-2">
                 <div class="footerImg">
                     <a href="mailto:alexmadrzyk@gmail.com" target="_blank">
-                        <img src="./assets/img/footer/email.jpg" alt="Email" width="195px"/>
+                        <img src="assets/images/footer/email.jpg" alt="Email" width="195px"/>
                     </a>
                 </div>
             </div>
             <div class="col-md-2">
                 <div class="footerImg">
                     <a href="//github.com/amadrzyk" target="_blank">
-                        <img src="./assets/img/footer/github.jpg" alt="GitHub" width="195px"/>
+                        <img src="assets/images/footer/github.jpg" alt="GitHub" width="195px"/>
                     </a>
                 </div>
             </div>

@@ -121,12 +121,12 @@ a {
 /* ================================================== IMAGES ================================================== */
 
 .bgimg-1 {
-    background-image: url("../img/header_text.png"), url("../img/header.jpg");
+    background-image: url("../images/header_text.png"), url("../images/header.jpg");
     min-height: 100%;
 }
 
 /*.headerText {*/
-    /*background-image: url("../img/header_text.png");*/
+    /*background-image: url("../images/header_text.png");*/
     /*height: 100%;*/
     /*position: absolute;*/
     /*z-index: 10;*/
@@ -138,12 +138,12 @@ a {
 /*}*/
 
 .bgimg-2 {
-    background-image: url("../img/explore.jpg");
+    background-image: url("../images/explore.jpg");
     min-height: 600px;
 }
 
 .bgimg-3 {
-    background-image: url("../img/vital_thirst.jpg");
+    background-image: url("../images/vital_thirst.jpg");
     min-height: 550px;
 }
 
