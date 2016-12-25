@@ -10,7 +10,7 @@
     <meta name="description" content="My Personal Website">
     <meta name="author" content="Alex Madrzyk">
     <title>Alex Madrzyk</title>
-    <link rel="shortcut icon" href="app/assets/images/favicon.ico">
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
 
 
     <!--=============================================== CSS FILES ===============================================-->
