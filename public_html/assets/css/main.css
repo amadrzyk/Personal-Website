@@ -178,12 +178,12 @@ a {
 .footerImg {
     display: inline-block;
     background-color: black;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .footerImg img {
     display: inline-block;
-    margin:auto;
+    margin: 0 auto;
 }
 
 .footerImg img:hover {
