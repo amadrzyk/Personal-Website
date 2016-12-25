@@ -39,7 +39,7 @@
     <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="../favicon.ico">
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="./favicon.ico">
 
 </head>
 
