@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon"/>
     <!--=============================================== WEBPAGE METADATA ========================================-->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,6 @@
     <meta name="description" content="My Personal Website">
     <meta name="author" content="Alex Madrzyk">
     <title>Alex Madrzyk</title>
-    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon"/>
 
 
     <!--=============================================== CSS FILES ===============================================-->
