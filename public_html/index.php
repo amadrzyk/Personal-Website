@@ -5,11 +5,20 @@
     <!--=============================================== WEBPAGE METADATA ========================================-->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Cache-control" content="public">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta name="description" content="My Personal Website">
     <meta name="author" content="Alex Madrzyk">
-    <title>Alex Madrzyk</title>
 
+    <meta property="og:url" content="http://alexmadrzyk.me">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Alex Madrzyk">
+    <meta property="og:description" content="Programming and design enthusiast, coffee fanatic and traveler.">
+    <meta property="og:image" content="http://github.com/amadrzyk/Personal-Website-Extras/blob/master/screenshot.png">
+
+    <title>Alex Madrzyk</title>
 
     <!--=============================================== FAVICONS ================================================-->
 
@@ -39,7 +48,6 @@
 
     <!-- Custom Page Element Styles -->
     <link rel="stylesheet" type="text/css" href="page_elements/css/hover_button.css">
-    <link rel="stylesheet" type="text/css" href="page_elements/css/portfolio.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -207,24 +215,24 @@
         <h3>Let's get in touch!</h3>
         <div class="row" style="padding-top: 3%; padding-bottom: 3%;">
             <div class="col-md-3"></div>
-            <div class="col-md-2">
+            <div class="col-md-2 col-xs-8 itemlink itemlinka">
                 <div class="footerImg">
                     <a href="//linkedin.com/in/alex-madrzyk-775759b9" target="_blank">
-                        <img src="assets/images/footer/linkedin.jpg" alt="Linkedin" width="195px"/>
+                        <img src="assets/images/footer/linkedin.jpg" alt="Linkedin"/>
                     </a>
                 </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 col-xs-8 itemlink itemlinka">
                 <div class="footerImg">
                     <a href="mailto:alexmadrzyk@gmail.com" target="_blank">
-                        <img src="assets/images/footer/email.jpg" alt="Email" width="195px"/>
+                        <img src="assets/images/footer/email.jpg" alt="Email"/>
                     </a>
                 </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 col-xs-8 itemlink itemlinka">
                 <div class="footerImg">
                     <a href="//github.com/amadrzyk" target="_blank">
-                        <img src="assets/images/footer/github.jpg" alt="GitHub" width="195px"/>
+                        <img src="assets/images/footer/github.jpg" alt="GitHub"/>
                     </a>
                 </div>
             </div>
