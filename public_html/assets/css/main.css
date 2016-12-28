@@ -307,7 +307,6 @@ footer p {
 }
 
 .minor {
-    font-size: 1.2em !important;
     padding-bottom: 30px;
     text-align: justify;
 }
@@ -359,7 +358,7 @@ footer p {
 
 .thumbnails {
     font-weight: 100;
-    font-size: 27px;
+    font-size: 22px;
     margin-top: 2%;
     text-align: center;
 }
