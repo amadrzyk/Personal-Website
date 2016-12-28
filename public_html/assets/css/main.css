@@ -83,7 +83,7 @@ a {
     }
     .navbar-default .nav > li > a:hover,
     .navbar-default .nav > li > a:focus:hover {
-        color: #b6b6b6;
+        color: #b6b6b6!important;
     }
     .navbar-default.affix {
         background-color: white;
@@ -405,6 +405,11 @@ footer p {
 
 /* ================================================== FOOTER ============================================ */
 
+.footerDiv {
+    display: inline-block!important;
+    background-color: #3e3e3b!important;
+}
+
  /*Image hover effect */
 .footerImg {
     display: inline-block;
@@ -459,9 +464,4 @@ footer p {
         margin-left: 0;
         margin-right: 0;
     }
-}
-
-.footerDiv {
-    display: inline-block!important;
-    background-color: #3e3e3b!important;
 }
