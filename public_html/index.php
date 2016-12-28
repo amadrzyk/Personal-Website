@@ -5,12 +5,11 @@
     <!--=============================================== WEBPAGE METADATA ========================================-->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta http-equiv="Cache-control" content="public">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">-->
     <meta name="description" content="My Personal Website">
     <meta name="author" content="Alex Madrzyk">
+    <meta name="theme-color" content="#ffffff">
 
     <meta property="og:url" content="http://alexmadrzyk.me">
     <meta property="og:type" content="article">
@@ -26,8 +25,7 @@
     <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16">
     <link rel="manifest" href="./manifest.json">
-    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="theme-color" content="#ffffff">
+    <link rel="mask-icon" href="./safari-pinned-tab.svg">
 
     <!--=============================================== CSS FILES ===============================================-->
 
@@ -129,7 +127,7 @@
             </div>
             <div class="col-lg-4">
                 <p class="profilePic">
-                    <img src="assets/images/me.png" alt="Alex Madrzyk" height="220px" width="220px"/>
+                    <img src="assets/images/me.png" alt="Alex Madrzyk" height="220" width="220"/>
                 </p>
             </div>
             <div class="col-lg-4">
@@ -180,7 +178,7 @@
     <!-- AWARDS -->
     <div id="awards" style="background-color:#f5f5f5; padding:50px 80px; text-align: justify;">
         <p style="text-align: center; padding-bottom: 3%">
-            <img src="assets/images/pinkribbon.png" alt="Awards" width="310px"/>
+            <img src="assets/images/pinkribbon.png" alt="Awards" width="310"/>
         </p>
         <p style="text-align: center; font-size: 17pt; font-weight: 100">
             <span class="awardTitle">Western University In-Course Scholarship,</span> Recipient, 2016<br>
