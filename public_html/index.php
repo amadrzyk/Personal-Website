@@ -213,7 +213,7 @@
 
     <footer id="footer">
         <h3>Let's get in touch!</h3>
-        <div class="row" style="padding-top: 3%; padding-bottom: 3%;">
+        <div class="footerDiv" style="padding-top: 3%; padding-bottom: 3%;">
             <div class="col-md-3"></div>
             <div class="col-md-2 col-xs-8 itemlink itemlinka">
                 <div class="footerImg">
