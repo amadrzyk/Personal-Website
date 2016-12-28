@@ -83,7 +83,7 @@ a {
     }
     .navbar-default .nav > li > a:hover,
     .navbar-default .nav > li > a:focus:hover {
-        color: white;
+        color: #b6b6b6;
     }
     .navbar-default.affix {
         background-color: white;
@@ -302,9 +302,10 @@ footer p {
     color: #3E3E3B;
 }
 
-.portfolioLink:hover {
-    color: #a5a5a5;
+.portfolioLink:hover, .potato:hover, .linkt>a:hover{
+    color: #a5a5a5!important;
 }
+
 .minor {
     font-size: 1.2em !important;
     padding-bottom: 30px;
@@ -356,6 +357,13 @@ footer p {
     border: 0;
 }
 
+.thumbnails {
+    font-weight: 100;
+    font-size: 27px;
+    margin-top: 2%;
+    text-align: center;
+}
+
 @media screen and (min-width: 800px) {
     /*Applies to screen more than 1000 or the md thingies, above works for sm*/
     .pitema:nth-child(2),
@@ -391,11 +399,6 @@ footer p {
         margin-top: 0.2%;
         padding-right: 15px;
         padding-left: 15px;
-    }
-
-    .thumbnails {
-        margin-top: 5%;
-        text-align: center;
     }
 }
 @media screen and (min-width: 700px) {}
