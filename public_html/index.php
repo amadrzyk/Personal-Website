@@ -16,7 +16,7 @@
     <meta property="og:type" content="article">
     <meta property="og:title" content="Alex Madrzyk">
     <meta property="og:description" content="Programming and design enthusiast, coffee fanatic and traveler.">
-    <meta property="og:image" content="http://github.com/amadrzyk/Personal-Website-Extras/blob/master/screenshot.png">
+    <meta property="og:image" content="http://alexmadrzyk.me/assets/images/screenshot.png">
 
     <title>Alex Madrzyk</title>
 
