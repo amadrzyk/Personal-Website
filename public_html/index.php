@@ -11,11 +11,11 @@
     <meta name="author" content="Alex Madrzyk">
     <meta name="theme-color" content="#ffffff">
 
-    <meta property="og:url" content="http://alexmadrzyk.me">
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="Alex Madrzyk">
-    <meta property="og:description" content="Programming and design enthusiast, coffee fanatic and traveler.">
-    <meta property="og:image" content="http://alexmadrzyk.me/assets/images/screenshot.png">
+    <meta property='og:url' content='http://alexmadrzyk.me'>
+    <meta property='og:type' content='article'>
+    <meta property='og:title' content='Alex Madrzyk'>
+    <meta property='og:description' content='Programming and design enthusiast, coffee fanatic and traveler.'>
+    <meta property='og:image' content='//alexmadrzyk.me/assets/images/screenshot.png'>
 
     <title>Alex Madrzyk</title>
 
