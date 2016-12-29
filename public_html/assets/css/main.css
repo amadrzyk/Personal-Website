@@ -203,6 +203,8 @@ a {
 
 .educationLogo img {
     max-width: 240px!important;
+    max-height: 100px!important;
+    display: inline-block;
 }
 
 .awardTitle {
