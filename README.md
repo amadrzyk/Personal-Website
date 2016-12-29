@@ -2,4 +2,4 @@
 
 [alexmadrzyk.me](http://alexmadrzyk.me/)
 
-![website screenshot](https://github.com/amadrzyk/Personal-Website-Extras/blob/master/screenshot.png)
+![website screenshot](http://www.alexmadrzyk.me/assets/images/screenshot.jpg)
