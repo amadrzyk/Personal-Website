@@ -345,6 +345,8 @@ footer p {
     font-size: 1.1em;
     font-weight: 400;
     text-align: left;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .portfolioimage {
     opacity: 0.9;
