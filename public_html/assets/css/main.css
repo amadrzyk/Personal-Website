@@ -152,11 +152,6 @@ a {
     padding-top: 11%;
 }
 
-.educationLogo {
-    text-align:center!important;
-    /*padding-left: 70px!important;*/
-}
-
 /*a.darkenImg {*/
     /*display: block;*/
     /*background: black;*/
@@ -199,6 +194,15 @@ a {
     line-height: 135%;
     text-align: left;
     font-size: 13pt;
+}
+
+.educationLogo {
+    text-align:center!important;
+    /*padding-left: 70px!important;*/
+}
+
+.educationLogo img {
+    max-width: 250px;
 }
 
 .awardTitle {
@@ -264,6 +268,7 @@ h3 {
     font: 40px "Lato", sans-serif;
     color: #3e3e3b;
     padding-bottom: 5%;
+    word-wrap: break-word;
 }
 
 #thirdPane h3 {
@@ -349,6 +354,7 @@ footer p {
     position: relative;
     margin-top: 10%;
 }
+
 .portfolio {
     margin-top: 5%;
 }

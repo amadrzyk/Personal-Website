@@ -178,7 +178,7 @@
     <!-- AWARDS -->
     <div id="awards" style="background-color:#f5f5f5; padding:50px 80px; text-align: justify;">
         <p style="text-align: center; padding-bottom: 3%">
-            <img src="assets/images/pinkribbon.png" alt="Awards" width="310"/>
+            <img src="assets/images/pinkribbon.png" alt="Awards" width="80%" style="max-width: 310px"/>
         </p>
         <p style="text-align: center; font-size: 17pt; font-weight: 100">
             <span class="awardTitle">Western University In-Course Scholarship,</span> Recipient, 2016<br>
