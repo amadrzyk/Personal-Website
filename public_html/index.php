@@ -52,11 +52,6 @@
     <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-    <script>
-        var url = window.location.toString();
-        window.history.pushState(url, 'Title', 'alexmadrzyk.me');
-    </script>
 </head>
 
 <body id="page-top">
