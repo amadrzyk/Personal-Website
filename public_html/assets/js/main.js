@@ -14,7 +14,7 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 (function($) {
     $.fn.parallax = function(options) {
 
-        if (!isMobile) {
+        // if (!isMobile) {
             var windowHeight = $(window).height();
 
             // Establish default settings
@@ -47,7 +47,7 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 
                 });
             });
-        }
+        // }
     }
 }(jQuery));
 

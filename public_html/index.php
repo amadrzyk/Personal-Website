@@ -121,7 +121,7 @@
             </div>
             <div class="col-lg-4">
                 <p class="profilePic">
-                    <img src="assets/images/me.png" alt="Alex Madrzyk" height="220" width="220"/>
+                    <img src="assets/images/me.png" alt="Alex Madrzyk" width="100%" style="max-width: 220px"/>
                 </p>
             </div>
             <div class="col-lg-4">
@@ -140,7 +140,7 @@
             </div>
          </div>
 
-        <p style="text-align: center; padding-top: 4%">If you like my work, please feel free to contact me.<br>
+        <p style="text-align: center; padding-top: 20px; line-height: 135%">If you like my work, please feel free to contact me.<br>
             I'm currently looking for a place to learn and intern during the Fall of 2017!</p>
 
         <!-- Contact Button -->
