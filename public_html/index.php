@@ -13,7 +13,7 @@
 
     <meta property="og:type"            content="article" />
     <meta property="og:title"           content="Alex Madrzyk"/>
-    <meta property="og:image"           content="http://alexmadrzyk.herokuapp.com/assets/images/ogimage.jpg"/>
+    <meta property="og:image"           content="http://alexmadrzyk.herokuapp.com/assets/images/screenshot.jpg"/>
     <meta property="og:description"     content="Programming and design enthusiast, coffee fanatic and avid learner."/>
     <meta property="og:url"             content="http://alexmadrzyk.herokuapp.com"/>
 
