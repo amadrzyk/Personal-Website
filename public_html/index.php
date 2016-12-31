@@ -114,8 +114,8 @@
                     young professional, I have delivered creative and engaging solutions across digital media and
                     online presence and assumed leadership roles along the way.<br><br>
 
-                    When I’m not in class, you can find me going on adventures with friends, or at my desk
-                    working on a new project.
+                    When I’m not in class, you can find me going on adventures with friends, watching Mr. Robot, or at my workspace
+                    developing a new project.
                 </p>
 
             </div>
@@ -128,8 +128,11 @@
                 <p style="font-style: italic; text-align: center; font-weight: 100">Fun Facts</p>
                 <ul style="line-height: 135%; text-align: left;">
                     <li>I’ve traveled around North America and Europe, and I hope to never stop exploring the world</li>
-                    <li>I am obsessed with Shiba Inu dogs</li>
-                    <li>I speak three languages fluently, and I am trying to learn a fourth</li>
+                    <li>I am obsessed with Shiba Inu dogs, especially
+                        <a href="//www.instagram.com/p/BONtmlFlKdk/" target="_blank">@mensweardog</a> and
+                        <a href="//www.instagram.com/p/BNhc83CD8fD/" target="_blank">@hellohoku</a></li>
+<!--                    <li>Sometimes, I post on Instagram (<a href="//www.instagram.com/alexdominic_">@alexdominic_</a>)</li>-->
+                    <li>I speak English, French and Polish fluently, and I am trying to learn Spanish</li>
                     <li>I love being involved in the community and volunteering</li>
                     <li>I've taught myself HTML/CSS, Java and C, and I'm committed to expanding my knowledge
                         in new languages and frameworks</li>
@@ -137,7 +140,8 @@
             </div>
          </div>
 
-        <p style="text-align: center; padding-top: 4%">Want to work together? I would love to hear from you!</p>
+        <p style="text-align: center; padding-top: 4%">If you like my work, please feel free to contact me.<br>
+            I'm currently looking for a place to learn and intern during the Fall of 2017!</p>
 
         <!-- Contact Button -->
         <div class="row">
