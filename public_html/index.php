@@ -3,14 +3,10 @@
 
 <head>
     <!--=============================================== WEBPAGE METADATA ========================================-->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <meta name="description" content="My Personal Website">
-    <meta name="author" content="Alex Madrzyk">
-    <meta name="theme-color" content="#ffffff">
-
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible"  content="IE=edge"/>
+    <meta name="viewport"               content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta property="theme-color"        content="#ffffff"/>
     <meta property="og:type"            content="article" />
     <meta property="og:title"           content="Alex Madrzyk"/>
     <meta property="og:image"           content="http://alexmadrzyk.herokuapp.com/assets/images/screenshot.jpg"/>
