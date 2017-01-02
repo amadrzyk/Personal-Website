@@ -177,7 +177,7 @@
 
     <!-- AWARDS -->
     <div id="awards" style="background-color:#f5f5f5; padding:50px 0; text-align: justify;">
-        <div class="slide-bottom">
+        <div class="slide-bottom" data-plugin-options='{"offset":-400}'>
             <p style="text-align: center; padding-bottom: 3%">
                 <img src="assets/images/pinkribbon.png" alt="Awards" width="80%" style="max-width: 310px; padding-bottom: 10px"/>
             </p>
