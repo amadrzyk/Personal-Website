@@ -42,12 +42,9 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 
                     var yBgPosition = Math.round((offset - scrollTop) * settings.speed);
 
-                    if (!isMobile) {
-                        // Apply the Y Background Position to Set the Parallax Effect
-                        $this.css('background-position', 'center ' + yBgPosition + 'px');
-                    } else {
-                        $this.css('background-position', 'center ' + 0 + 'px');
-                    }
+                    // Apply the Y Background Position to Set the Parallax Effect
+                    $this.css('background-position', 'center ' + yBgPosition + 'px');
+
                 });
             });
         // }
