@@ -146,14 +146,16 @@
             I'm currently looking for a place to learn and intern during the Fall of 2017!</p>
 
         <!-- Contact Button -->
-        <div class="row slide-bottom">
-            <div class="col-md-5"></div>
-            <div class="col-md-2">
-                <?php
-                    include_once "page_elements/hover_button.html";
-                ?>
+        <div class="container">
+            <div class="row slide-bottom">
+                <div class="col-md-5"></div>
+                <div class="col-md-2">
+                    <?php
+                        include_once "page_elements/hover_button.html";
+                    ?>
+                </div>
+                <div class="col-md-5"></div>
             </div>
-            <div class="col-md-5"></div>
         </div>
     </div>
 
@@ -265,7 +267,7 @@
 
     <!-- FadeThis -->
     <script src="assets/js/jquery.fadethis.js" type="text/javascript"></script>
-    <script>if(!isMobile){ $(window).fadeThis({reverse: false, offset: -200});}</script>
+    <script>if(!isMobile && jQuery(window).width() >= 992){ $(window).fadeThis({reverse: false, offset: -200});}</script>
 
     <!-- Insert Break at Span ID -->
     <script>
