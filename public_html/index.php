@@ -59,7 +59,7 @@
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                    <span class="sr-only">Toggle navigation</span> Menu  <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
                     <span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
@@ -234,7 +234,7 @@
             </div>
             <div class="col-md-3"></div>
         </div>
-<!--        <p>© Alex Madrzyk, 2016</p>-->
+        <p style="text-align: center; padding-bottom: 3%; font-weight:400; letter-spacing: 1px;">©2016 Alex Madrzyk<br>Made with ♥</p>
     </footer>
 
     <!--=============================================== JS SCRIPTS ==============================================-->
