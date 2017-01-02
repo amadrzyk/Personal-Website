@@ -119,7 +119,7 @@ p {
 
 .bgimg-1, .bgimg-2, .bgimg-3, .headerText {
     position: relative;
-    background-attachment: fixed;
+    background-attachment: fixed!important;
     background-position: 50% 0;
     background-repeat: no-repeat;
     background-size: cover;
