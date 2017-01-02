@@ -209,32 +209,34 @@
 
     <footer id="footer">
         <h3>Let's get in touch!</h3>
-        <div class="footerDiv" style="padding-top: 3%; padding-bottom: 3%;">
-            <div class="col-md-3"></div>
-            <div class="col-md-2 col-xs-8 itemlink itemlinka">
-                <div class="footerImg">
-                    <a href="//linkedin.com/in/alex-madrzyk-775759b9" target="_blank">
-                        <img src="assets/images/footer/linkedin.jpg" alt="Linkedin"/>
-                    </a>
+        <div class="container">
+            <div class="row footerDiv" style="padding-top: 3%; padding-bottom: 3%;">
+                <div class="col-md-3"></div>
+                <div class="col-md-2 col-xs-12 itemlink itemlinka">
+                    <div class="footerImg">
+                        <a href="//linkedin.com/in/alex-madrzyk-775759b9" target="_blank">
+                            <img src="assets/images/footer/linkedin.jpg" alt="Linkedin"/>
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-2 col-xs-8 itemlink itemlinka">
-                <div class="footerImg">
-                    <a href="mailto:alexmadrzyk@gmail.com" target="_blank">
-                        <img src="assets/images/footer/email.jpg" alt="Email"/>
-                    </a>
+                <div class="col-md-2 col-xs-12 itemlink itemlinka">
+                    <div class="footerImg">
+                        <a href="mailto:alexmadrzyk@gmail.com" target="_blank">
+                            <img src="assets/images/footer/email.jpg" alt="Email"/>
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-2 col-xs-8 itemlink itemlinka">
-                <div class="footerImg">
-                    <a href="//github.com/amadrzyk" target="_blank">
-                        <img src="assets/images/footer/github.jpg" alt="GitHub"/>
-                    </a>
+                <div class="col-md-2 col-xs-12 itemlink itemlinka">
+                    <div class="footerImg">
+                        <a href="//github.com/amadrzyk" target="_blank">
+                            <img src="assets/images/footer/github.jpg" alt="GitHub"/>
+                        </a>
+                    </div>
                 </div>
+                <div class="col-md-3"></div>
             </div>
-            <div class="col-md-3"></div>
         </div>
-        <p style="text-align: center; padding-bottom: 3%; font-weight:400; letter-spacing: 1px;">©2016 Alex Madrzyk<br>Made with ♥</p>
+        <p style="text-align: center; padding-bottom: 3%; font-weight:400; letter-spacing: 1px;">Made with ♥ by Alex Madrzyk © 2016</p>
     </footer>
 
     <!--=============================================== JS SCRIPTS ==============================================-->
