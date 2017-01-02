@@ -1,0 +1,16 @@
+{
+  "name": "alexmadrzyk/personal-website",
+  "description": "personal website",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Alex Madrzyk",
+      "email": "alexmadrzyk@gmail.com"
+    }
+  ],
+
+  "require-dev" : {
+    "heroku/heroku-buildpack-php": "*"
+  }
+}
