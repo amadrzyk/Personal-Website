@@ -269,7 +269,7 @@
     <script src="assets/js/jquery.fadethis.js" type="text/javascript"></script>
     <script>if(!isMobile && jQuery(window).width() >= 992){ $(window).fadeThis({reverse: false, offset: -200});}</script>
 
-    <!-- Insert Break at Span ID -->
+    <!-- Insert Break at Span ID (for the awards section) -->
     <script>
         if (isMobile) {
             document.getElementById('in1').innerHTML = '<br>';

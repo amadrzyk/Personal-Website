@@ -14,7 +14,7 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 (function($) {
     $.fn.parallax = function(options) {
 
-        if (!isMobile) {
+        // if (!isMobile) {
             var windowHeight = $(window).height();
 
             // Establish default settings
@@ -42,12 +42,15 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 
                     var yBgPosition = Math.round((offset - scrollTop) * settings.speed);
 
-                    // Apply the Y Background Position to Set the Parallax Effect
-                    $this.css('background-position', 'center ' + yBgPosition + 'px');
-
+                    if (!isMobile) {
+                        // Apply the Y Background Position to Set the Parallax Effect
+                        $this.css('background-position', 'center ' + yBgPosition + 'px');
+                    } else {
+                        $this.css('background-position', 'center ' + 0 + 'px');
+                    }
                 });
             });
-        }
+        // }
     }
 }(jQuery));
 
