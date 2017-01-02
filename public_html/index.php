@@ -100,51 +100,53 @@
 <!--    <div class="headerText"></div>-->
 
     <!-- FIRST INFO PANE -->
-    <div id="firstPane" style="background-color:white; padding:50px 80px; text-align: justify;">
+    <div id="firstPane" style="background-color:white; padding:50px 0; text-align: justify;">
 
         <!-- Title -->
-        <h3 style="text-align:center;">About Me</h3>
+        <h3 class="slide-bottom" style="text-align:center;">About Me</h3>
         <!-- Content -->
-        <div class="row">
-            <div class="col-lg-4">
-                <p style="font-style: italic; text-align: center; font-weight: 100">Profile</p>
-                <p style="text-align: left; line-height: 135%">
-                    Hi, I'm Alex! I am a third-year computer science student at Western University. My passions lie in
-                    web and software development, design, and customer relations. In my years as a student and
-                    young professional, I have delivered creative and engaging solutions across digital media and
-                    online presence and assumed leadership roles along the way.<br><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-xs-12 slide-bottom">
+                    <p style="font-style: italic; text-align: center; font-weight: 100">Profile</p>
+                    <p style="text-align: left; line-height: 135%">
+                        Hi, I'm Alex! I am a third-year computer science student at Western University. My passions lie in
+                        web and software development, design, and customer relations. In my years as a student and
+                        young professional, I have delivered creative and engaging solutions across digital media and
+                        online presence and assumed leadership roles along the way.<br><br>
 
-                    When I’m not in class, you can find me going on adventures with friends, watching Mr. Robot, or at my workspace
-                    developing a new project.
-                </p>
+                        When I’m not in class, you can find me going on adventures with friends, watching Mr. Robot, or at my workspace
+                        developing a new project.
+                    </p>
 
-            </div>
-            <div class="col-lg-4">
-                <p class="profilePic">
-                    <img src="assets/images/me.png" alt="Alex Madrzyk" width="100%" style="max-width: 220px"/>
-                </p>
-            </div>
-            <div class="col-lg-4">
-                <p style="font-style: italic; text-align: center; font-weight: 100">Fun Facts</p>
-                <ul style="line-height: 135%; text-align: left;">
-                    <li>I’ve traveled around North America and Europe, and I hope to never stop exploring the world</li>
-                    <li>I am obsessed with Shiba Inu dogs, especially
-                        <a href="//www.instagram.com/p/BONtmlFlKdk/" target="_blank">@mensweardog</a> and
-                        <a href="//www.instagram.com/p/BNhc83CD8fD/" target="_blank">@hellohoku</a></li>
-<!--                    <li>Sometimes, I post on Instagram (<a href="//www.instagram.com/alexdominic_">@alexdominic_</a>)</li>-->
-                    <li>I speak English, French and Polish fluently, and I am trying to learn Spanish</li>
-                    <li>I love being involved in the community and volunteering</li>
-                    <li>I've taught myself HTML/CSS, Java and C, and I'm committed to expanding my knowledge
-                        in new languages and frameworks</li>
-                </ul>
-            </div>
-         </div>
+                </div>
+                <div class="col-lg-4 col-xs-12 slide-bottom">
+                    <p class="profilePic">
+                        <img src="assets/images/me.png" alt="Alex Madrzyk" width="100%" style="max-width: 220px"/>
+                    </p>
+                </div>
+                <div class="col-lg-4 col-xs-12 slide-bottom">
+                    <p style="font-style: italic; text-align: center; font-weight: 100">Fun Facts</p>
+                    <ul style="line-height: 135%; text-align: left;">
+                        <li>I’ve traveled around North America and Europe, and I hope to never stop exploring the world</li>
+                        <li>I am obsessed with Shiba Inu dogs, especially
+                            <a href="//www.instagram.com/p/BONtmlFlKdk/" target="_blank">@mensweardog</a> and
+                            <a href="//www.instagram.com/p/BNhc83CD8fD/" target="_blank">@hellohoku</a></li>
+    <!--                    <li>Sometimes, I post on Instagram (<a href="//www.instagram.com/alexdominic_">@alexdominic_</a>)</li>-->
+                        <li>I speak English, French and Polish fluently, and I am trying to learn Spanish</li>
+                        <li>I love being involved in the community and volunteering</li>
+                        <li>I've taught myself HTML/CSS, Java and C, and I'm committed to expanding my knowledge
+                            in new languages and frameworks</li>
+                    </ul>
+                </div>
+             </div>
+        </div>
 
-        <p style="text-align: center; padding-top: 20px; line-height: 135%">If you like my work, please feel free to contact me.<br>
+        <p class="slide-bottom" style="text-align: center; padding-top: 20px; line-height: 135%">If you like my work, please feel free to contact me.<br>
             I'm currently looking for a place to learn and intern during the Fall of 2017!</p>
 
         <!-- Contact Button -->
-        <div class="row">
+        <div class="row slide-bottom">
             <div class="col-md-5"></div>
             <div class="col-md-2">
                 <?php
@@ -161,10 +163,10 @@
     </div>
 
     <!-- SECOND INFO PANE -->
-    <div id="secondPane" style="background-color:white; padding:50px 80px; text-align: justify;">
+    <div id="secondPane" style="background-color:white; padding:50px 0; text-align: justify;">
 
         <!-- Title -->
-        <h3 style="text-align:center;">Global<br>Academics</h3>
+        <h3 class="slide-bottom" style="text-align:center;">Global<br>Academics</h3>
 
         <?php
             include_once "./page_elements/educationText.html";
@@ -174,20 +176,22 @@
     </div>
 
     <!-- AWARDS -->
-    <div id="awards" style="background-color:#f5f5f5; padding:50px 80px; text-align: justify;">
-        <p style="text-align: center; padding-bottom: 3%">
-            <img src="assets/images/pinkribbon.png" alt="Awards" width="80%" style="max-width: 310px"/>
-        </p>
-        <p style="text-align: center; font-size: 17pt; font-weight: 100">
-            <span class="awardTitle">Western University In-Course Scholarship,</span> Recipient, 2016<br>
-            <span class="awardTitle">Best Hack to Improve Patient Wait Times in Hospitals,</span> Recipient, 2016<br>
-            <span class="awardTitle">Magnet Forensics: Cracking the Code Challenge, Third Place Winner,</span> 2016<br>
-            <span class="awardTitle">Western International Learning Award,</span> Recipient, 2016<br>
-            <span class="awardTitle">Queen Elizabeth II Silver Jubilee Endowment Fund,</span> Recipient, 2016<br>
-            <span class="awardTitle">Robert and Ruth Lumsden Scholarships in Science,</span> Recipient, 2015<br>
-            <span class="awardTitle">Western University Scholarship of Excellence,</span> Recipient, 2014<br>
-            <span class="awardTitle">Student of Distinction Award,</span> Recipient, 2014<br>
-        </p>
+    <div id="awards" style="background-color:#f5f5f5; padding:50px 0; text-align: justify;">
+        <div class="slide-bottom">
+            <p style="text-align: center; padding-bottom: 3%">
+                <img src="assets/images/pinkribbon.png" alt="Awards" width="80%" style="max-width: 310px; padding-bottom: 10px"/>
+            </p>
+            <p style="text-align: center; font-size: 17pt; font-weight: 100">
+                <span class="awardTitle">Western University In-Course Scholarship,</span><span id="in1"></span> Recipient, 2016<br>
+                <span class="awardTitle">Best Hack to Improve Patient Wait Times in Hospitals,</span><span id="in2"></span> Recipient, 2016<br>
+                <span class="awardTitle">Magnet Forensics: Cracking the Code Challenge,</span><span id="in3"></span> Third Place Winner, 2016<br>
+                <span class="awardTitle">Western International Learning Award,</span><span id="in4"></span> Recipient, 2016<br>
+                <span class="awardTitle">Queen Elizabeth II Silver Jubilee Endowment Fund,</span><span id="in5"></span> Recipient, 2016<br>
+                <span class="awardTitle">Robert and Ruth Lumsden Scholarships in Science,</span><span id="in6"></span> Recipient, 2015<br>
+                <span class="awardTitle">Western University Scholarship of Excellence,</span><span id="in7"></span> Recipient, 2014<br>
+                <span class="awardTitle">Student of Distinction Award,</span><span id="in8"></span> Recipient, 2014<br>
+            </p>
+        </div>
     </div>
 
     <!-- THIRD BACKGROUND IMAGE -->
@@ -199,7 +203,7 @@
     <div id="thirdPane" style="background-color:white; padding:50px 0; text-align: justify;">
 
         <!-- Title -->
-        <h3 style="text-align:center;">Projects &<br>Designs</h3>
+        <h3 class="slide-bottom" style="text-align:center;">Projects &<br>Designs</h3>
 
         <?php
             include_once "page_elements/portfolio.html";
@@ -208,25 +212,25 @@
     </div>
 
     <footer id="footer">
-        <h3>Let's get in touch!</h3>
+        <h3 class="slide-bottom">Let's get in touch!</h3>
         <div class="container">
             <div class="row footerDiv" style="padding-top: 3%; padding-bottom: 3%;">
                 <div class="col-md-3"></div>
-                <div class="col-md-2 col-xs-12 itemlink itemlinka">
+                <div class="col-md-2 col-xs-12 itemlink itemlinka slide-bottom">
                     <div class="footerImg">
                         <a href="//linkedin.com/in/alex-madrzyk-775759b9" target="_blank">
                             <img src="assets/images/footer/linkedin.jpg" alt="Linkedin"/>
                         </a>
                     </div>
                 </div>
-                <div class="col-md-2 col-xs-12 itemlink itemlinka">
+                <div class="col-md-2 col-xs-12 itemlink itemlinka slide-bottom">
                     <div class="footerImg">
                         <a href="mailto:alexmadrzyk@gmail.com" target="_blank">
                             <img src="assets/images/footer/email.jpg" alt="Email"/>
                         </a>
                     </div>
                 </div>
-                <div class="col-md-2 col-xs-12 itemlink itemlinka">
+                <div class="col-md-2 col-xs-12 itemlink itemlinka slide-bottom">
                     <div class="footerImg">
                         <a href="//github.com/amadrzyk" target="_blank">
                             <img src="assets/images/footer/github.jpg" alt="GitHub"/>
@@ -236,7 +240,7 @@
                 <div class="col-md-3"></div>
             </div>
         </div>
-        <p style="text-align: center; padding-bottom: 3%; font-weight:400; letter-spacing: 1px;">Made with ♥ by Alex Madrzyk © 2016</p>
+        <p class="slide-bottom" style="text-align: center; padding-bottom: 3%; font-weight:400; letter-spacing: 1px;">Made with ♥ by Alex Madrzyk © 2017</p>
     </footer>
 
     <!--=============================================== JS SCRIPTS ==============================================-->
@@ -258,6 +262,24 @@
 
     <!-- Custom Page Element JavaScript -->
     <script src="page_elements/js/portfolio.js" type="text/javascript"></script>
+
+    <!-- FadeThis -->
+    <script src="assets/js/jquery.fadethis.js" type="text/javascript"></script>
+    <script>if(!isMobile){ $(window).fadeThis({reverse: false, offset: -200});}</script>
+
+    <!-- Insert Break at Span ID -->
+    <script>
+        if (isMobile) {
+            document.getElementById('in1').innerHTML = '<br>';
+            document.getElementById('in2').innerHTML = '<br>';
+            document.getElementById('in3').innerHTML = '<br>';
+            document.getElementById('in4').innerHTML = '<br>';
+            document.getElementById('in5').innerHTML = '<br>';
+            document.getElementById('in6').innerHTML = '<br>';
+            document.getElementById('in7').innerHTML = '<br>';
+            document.getElementById('in8').innerHTML = '<br>';
+        }
+    </script>
 </body>
 
 </html>
