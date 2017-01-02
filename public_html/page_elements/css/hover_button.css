@@ -113,6 +113,21 @@
     white-space: nowrap;
     margin: 0 20px 0 20px;
 }
+.contact-link, .resume-link{
+    display: table-cell;
+    vertical-align: middle;
+}
+.input-group-addon:first-child {
+    border-right: 1px solid #ccc;
+}
+.addon-title {
+    padding: 20px;
+    border-bottom-right-radius: 6px!important;
+    border-top-right-radius: 6px!important;
+    color: #3e3e3b;
+    font-size: 22px;
+}
+
 .u104 .btn-title:before, .u104 .btn-title:after {
     position: absolute;
     background-color: #3E3E3B;
@@ -177,7 +192,4 @@
     -webkit-transform: translateX(-50%) translateY(-50%);
     -ms-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-}
-.input-group-addon:first-child {
-    border-right: 1px solid #ccc;
 }
