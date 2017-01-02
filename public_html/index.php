@@ -100,7 +100,7 @@
 <!--    <div class="headerText"></div>-->
 
     <!-- FIRST INFO PANE -->
-    <div id="firstPane" style="background-color:white; padding:50px 0; text-align: justify;">
+    <div id="firstPane" style="background-color:white; padding:50px 0 40px 0; text-align: justify;">
 
         <!-- Title -->
         <h3 class="slide-bottom" style="text-align:center;">About Me</h3>
@@ -213,7 +213,7 @@
 
     </div>
 
-    <footer id="footer">
+    <footer>
         <h3 class="slide-bottom">Let's get in touch!</h3>
         <div class="container">
             <div class="row footerDiv" style="padding-top: 3%; padding-bottom: 3%;">
@@ -242,7 +242,7 @@
                 <div class="col-md-3"></div>
             </div>
         </div>
-        <p class="slide-bottom" style="text-align: center; padding-bottom: 3%; font-weight:400; letter-spacing: 1px;">Made with ♥ by Alex Madrzyk © 2017</p>
+        <p class="slide-bottom" style="text-align: center; padding-bottom: 3%; font-weight:400; letter-spacing: 1px;">Made with <span style="color: #FF5A79; font-size: 13px;">♥</span> by Alex Madrzyk © 2017</p>
     </footer>
 
     <!--=============================================== JS SCRIPTS ==============================================-->
