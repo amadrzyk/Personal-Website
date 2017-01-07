@@ -5,6 +5,7 @@
     <!--=============================================== WEBPAGE METADATA ========================================-->
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible"  content="IE=edge"/>
+    <meta name="google-site-verification" content="08SV5289yGOBDZsowNSa0U4Vrc5SE1Z6zcnXQV9Aanw" />
     <meta name="viewport"               content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
     <meta property="theme-color"        content="#ffffff"/>
     <meta property="og:type"            content="article" />
