@@ -4,8 +4,6 @@
 
 $("a").attr("target", "_blank");
 
-var toggled=0;
-$('#haww').hide();
 $('.xelec').click(function(){
     $('.pitem').addClass("hidden");
     $('.pitem').removeClass("pitema");

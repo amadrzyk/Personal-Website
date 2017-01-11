@@ -111,13 +111,21 @@
                 <div class="col-lg-4 col-xs-12 slide-bottom">
                     <p style="font-style: italic; text-align: center; font-weight: 100">Profile</p>
                     <p style="text-align: left; line-height: 135%">
-                        Hi, I'm Alex! I am a third-year computer science student at Western University. My passions lie in
+                        Hi there! I am a rising junior at Western University in Canada, and I am passionate about
+                        programming and design. I am a top student in my double-major program, where I am maintaining a 3.9 GPA.
+                        I have received two merit scholarships every year since starting my degree. Moreover,
+                        I have experience working on many programming and social media projects in the past, and
+                        I am a very quick and avid learner. <br><br>
+
+                        When I’m not in class, you can find me going on adventures with friends, watching Mr. Robot, or
+                        at my workspace developing a new project.
+
+                        <!--Hi, I'm Alex! I am a third-year computer science student at Western University. My passions lie in
                         web and software development, design, and customer relations. In my years as a student and
                         young professional, I have delivered creative and engaging solutions across digital media and
-                        online presence and assumed leadership roles along the way.<br><br>
+                        online presence and assumed leadership roles along the way.-->
 
-                        When I’m not in class, you can find me going on adventures with friends, watching Mr. Robot, or at my workspace
-                        developing a new project.
+
                     </p>
 
                 </div>
@@ -243,6 +251,7 @@
                 <div class="col-md-3"></div>
             </div>
         </div>
+
         <p class="slide-bottom" style="text-align: center; padding-bottom: 3%; font-weight:400; letter-spacing: 1px;">Made with <span style="color: #FF5A79; font-size: 13px;">♥</span> by Alex Madrzyk © 2017</p>
     </footer>
 
@@ -273,14 +282,11 @@
     <!-- Insert Break at Span ID (for the awards section) -->
     <script>
         if (isMobile) {
-            document.getElementById('in1').innerHTML = '<br>';
-            document.getElementById('in2').innerHTML = '<br>';
-            document.getElementById('in3').innerHTML = '<br>';
-            document.getElementById('in4').innerHTML = '<br>';
-            document.getElementById('in5').innerHTML = '<br>';
-            document.getElementById('in6').innerHTML = '<br>';
-            document.getElementById('in7').innerHTML = '<br>';
-            document.getElementById('in8').innerHTML = '<br>';
+            <?php
+                for ($x = 1; $x <= 8; $x++){
+                    echo "document.getElementById('in", $x, "').innerHTML = '<br>';\n";
+                }
+            ?>
         }
     </script>
 </body>
