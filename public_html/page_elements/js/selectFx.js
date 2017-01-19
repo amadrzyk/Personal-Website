@@ -173,7 +173,7 @@
 				else {
                     jQuery('#portLanguages').removeClass('hideMe');
                     jQuery('#portDisciplines').addClass('hideMe');
-                    jQuery('.cs-select').css("margin", "18px 0 18px 0");
+                    jQuery('.cs-select').css("margin", "19px 0 19px 0");
 				}
 			} );
 		} );
