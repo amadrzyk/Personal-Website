@@ -152,7 +152,7 @@ p {
 
 .bgimg-3 {
     background-image: url("../images/design1.jpg");
-    min-height: 550px;
+    min-height: 600px; /*550*/
 }
 
 .profilePic {
@@ -333,7 +333,7 @@ footer p {
 }
 
 .minor {
-    padding-bottom: 30px;
+    /*padding-bottom: 30px;*/
     text-align: justify;
 }
 .hidden {
@@ -388,7 +388,7 @@ footer p {
 .thumbnails {
     font-weight: 100;
     font-size: 22px;
-    margin-top: 2%;
+    margin-top: 7px;
     text-align: center;
 }
 

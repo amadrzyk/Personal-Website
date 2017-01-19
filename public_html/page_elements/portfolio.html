@@ -4,17 +4,43 @@
     Try to keep it to exactly 5 lines.
 -->
 
-<div class="col-md-12 col-xs-12 minor thumbnails slide-bottom">
-    <span class="linkt"><a class="potato xall" target="_blank">All&nbsp;&nbsp;</a></span>|
-    <span class="linkt"><a class="potato xprog" target="_blank">&nbsp;&nbsp;Web/Programming&nbsp;&nbsp;</a></span>|
-    <span class="linkt"><a class="potato xelec" target="_blank">&nbsp;&nbsp;Computer Engineering&nbsp;&nbsp;</a></span>|
-    <span class="linkt"><a class="potato xdesi" target="_blank">&nbsp;&nbsp;Design&nbsp;&nbsp;</a></span>
+<div class="container">
+    <div class="row portfolioBar" style="background-color: #f5f5f5; margin-top:60px">
+        <div class="col-md-4 col-xs-12 slide-bottom" style="text-align: center; float:left;">
+            <select class="cs-select cs-skin-slide" id="portfolioMenu">
+                <option value="discipline">Disciplines</option>
+                <option value="language">Languages</option>
+            </select>
+        </div>
+        <div id="portDisciplines">
+            <div class="col-md-8 col-xs-12 minor thumbnails slide-bottom">
+                <span class="linkt"><a class="potato xall" target="_blank">All&nbsp;&nbsp;</a></span>|
+                <span class="linkt"><a class="potato xprog" target="_blank">&nbsp;&nbsp;Web/Programming&nbsp;&nbsp;</a></span>|
+                <span class="linkt"><a class="potato xelec" target="_blank">&nbsp;&nbsp;Computer Engineering&nbsp;&nbsp;</a></span>|
+                <span class="linkt"><a class="potato xdesi" target="_blank">&nbsp;&nbsp;Design&nbsp;&nbsp;</a></span>
+            </div>
+        </div>
+        <div id="portLanguages" class="hideMe">
+            <div class="col-md-8 col-xs-12 minor thumbnails">
+                <!-- All Java Python HTML/CSS/Javascript PHP C MIPS Swift AdobeCC -->
+                <span class="linkt"><a class="potato xall"      target="_blank">All&nbsp;&nbsp;</a></span>|
+                <span class="linkt"><a class="potato xjava"     target="_blank">&nbsp;&nbsp;Java&nbsp;&nbsp;</a></span>|
+                <span class="linkt"><a class="potato xpyth"     target="_blank">&nbsp;&nbsp;Python&nbsp;&nbsp;</a></span>|
+                <span class="linkt"><a class="potato xwebdev"   target="_blank">&nbsp;&nbsp;HTML/CSS/Javascript&nbsp;&nbsp;</a></span><br>
+                <span class="linkt"><a class="potato xphp"      target="_blank">&nbsp;&nbsp;PHP&nbsp;&nbsp;</a></span>|
+                <span class="linkt"><a class="potato xclang"    target="_blank">&nbsp;&nbsp;C&nbsp;&nbsp;</a></span>|
+                <span class="linkt"><a class="potato xmips"     target="_blank">&nbsp;&nbsp;MIPS&nbsp;&nbsp;</a></span>|
+                <span class="linkt"><a class="potato xswift"    target="_blank">&nbsp;&nbsp;Swift&nbsp;&nbsp;</a></span>|
+                <span class="linkt"><a class="potato xadobe"    target="_blank">&nbsp;&nbsp;Adobe CC&nbsp;&nbsp;</a></span>
+            </div>
+        </div>
+    </div>
 </div>
 
 <div class="portfolio container">
     <!--Row1--><!--Row1--><!--Row1-->
-    <div class="row switchrow slide-bottom" data-plugin-options='{"offset":-400}'>
-        <div class="col-md-4 col-xs-12 pitem pitema desi soft">
+    <div class="row switchrow" data-plugin-options='{"offset":-400}'>
+        <div class="col-md-4 col-xs-12 pitem pitema desi soft webdev">
             <div class="linkt">
                 <a href="//devpost.com/software/timetocare" target="_blank">
                     <img class="portfolioimage" src="assets/images/portfolio/timetocare.jpg" alt="timetocare">
@@ -23,7 +49,7 @@
             </div>
             <span class="procat">Hackathon project that minimizes patients' wait time to get treated. Won Best Hack to Improve Patient Wait Times in Hospitals.</span>
         </div>
-        <div class="col-md-4 col-xs-12 pitem pitema elec">
+        <div class="col-md-4 col-xs-12 pitem pitema elec mips clang">
             <div class="linkt">
                 <a href="//github.com/amadrzyk/MIPS-CPU-in-Logisim" target="_blank">
                     <img class="portfolioimage" src="assets/images/portfolio/CPU.jpg" alt="cpu logic">
@@ -32,7 +58,7 @@
             </div>
             <span class="procat">Functional model of a 32-bit two-cycle processor and arithmetic logic unit that reads and executes MIPS instructions via Logisim.</span>
         </div>
-        <div class="col-md-4 col-xs-12 pitem pitema desi soft">
+        <div class="col-md-4 col-xs-12 pitem pitema desi soft webdev php">
             <div class="linkt">
                 <a href="//github.com/amadrzyk/blank-bootstrap" target="_blank">
                     <img class="portfolioimage" src="assets/images/portfolio/profile.png" alt="blank bootstrap">
@@ -44,8 +70,8 @@
         <!--Row1--><!--Row1--><!--Row1-->
     </div>
     <!--Row1--><!--Row1--><!--Row1-->
-    <div class="row switchrow slide-bottom" data-plugin-options='{"offset":-400}'>
-        <div class="col-md-4 col-xs-12 pitem pitema soft">
+    <div class="row switchrow" data-plugin-options='{"offset":-400}'>
+        <div class="col-md-4 col-xs-12 pitem pitema soft java">
             <div class="linkt">
                 <a href="//github.com/amadrzyk/Achi-Dynamic-Programming" target="_blank">
                     <img class="portfolioimage" src="assets/images/portfolio/PlayAchiLoop.gif" alt="achi gameplay" loop=infinite>
@@ -54,7 +80,7 @@
             </div>
             <span class="procat">AI algorithm that plays the user in Achi, a game similar to tic-tac-toe. The algorithm uses dynamic programming to calculate the best possible moves.</span>
         </div>
-        <div class="col-md-4 col-xs-12 pitem pitema soft">
+        <div class="col-md-4 col-xs-12 pitem pitema soft pyth">
             <div class="linkt">
                 <a href="//github.com/amadrzyk/Twitter-Sentiment-Analysis/" target="_blank">
                     <img class="portfolioimage" src="assets/images/portfolio/twitter_sa.png" alt="twitter analysis">
@@ -63,7 +89,7 @@
             </div>
             <span class="procat">Performs aggregated sentiment analysis on user tweet data, to determine which timezone in the continental US is the happiest.</span>
         </div>
-        <div class="col-md-4 col-xs-12 pitem pitema soft">
+        <div class="col-md-4 col-xs-12 pitem pitema soft java">
             <div class="linkt">
                 <a href="//github.com/amadrzyk/Algorithmic-Maze-Solver" target="_blank">
                     <img class="portfolioimage" src="assets/images/portfolio/MazeLoop.gif" alt="maze solver" loop=infinite>
@@ -74,8 +100,8 @@
         </div>
     </div>
     <!--Row1--><!--Row1--><!--Row1-->
-    <div class="row switchrow slide-bottom" data-plugin-options='{"offset":-400}'>
-        <div class="col-md-4 col-xs-12 pitem pitema desi">
+    <div class="row switchrow" data-plugin-options='{"offset":-400}'>
+        <div class="col-md-4 col-xs-12 pitem pitema desi adobe">
             <div class="linkt">
                 <a href="//www.facebook.com/westernfrenchclub/" target="_blank">
                     <img class="portfolioimage" src="assets/images/portfolio/FrenchClubLogo.png" alt="french club logo">
@@ -85,7 +111,7 @@
             <span class="procat">Western French Club's social media logo for the 2016/2017 academic year.<br><br><br></span>
         </div>
         <!--Row3-->
-        <div class="col-md-4 col-xs-12 pitem pitema desi">
+        <div class="col-md-4 col-xs-12 pitem pitema desi adobe">
             <div class="linkt">
                 <a href="//drive.google.com/file/d/0B6AW8Lq_EEL1cVpjX0J4WlNENGM/view?usp=sharing" target="_blank">
                     <img class="portfolioimage" src="assets/images/portfolio/FrenchClubBoothPoster.jpg" alt="french club poster">
@@ -94,7 +120,7 @@
             </div>
             <span class="procat">Promotional poster for the French Club, which was used at every social event.<br><br><br></span>
         </div>
-        <div class="col-md-4 col-xs-12 pitem pitema desi">
+        <div class="col-md-4 col-xs-12 pitem pitema desi adobe">
             <div class="linkt">
                 <a href="//drive.google.com/file/d/0B6AW8Lq_EEL1dzhwbl9wWkI4dEU/view?usp=sharing" target="_blank">
                     <img class="portfolioimage" src="assets/images/portfolio/french_poster.png" alt="french signup poster">
@@ -106,8 +132,8 @@
         <!--Row1--><!--Row1--><!--Row1-->
     </div>
     <!--Row1--><!--Row1--><!--Row1-->
-    <div class="row switchrow slide-bottom" data-plugin-options='{"offset":-400}'>
-        <div class="col-md-4 col-xs-12 pitem pitema desi soft">
+    <div class="row switchrow" data-plugin-options='{"offset":-400}'>
+        <div class="col-md-4 col-xs-12 pitem pitema desi soft swift">
             <div class="linkt">
                 <a target="_self">
                     <img class="portfolioimage" src="assets/images/portfolio/french_club_ios.png" alt="french club ios">
@@ -116,7 +142,7 @@
             </div>
             <span class="procat">Notifies French Club members on future club events. The app’s TableView is populated using PHP and a MySQL database.<br><br></span>
         </div>
-        <div class="col-md-4 col-xs-12 pitem pitema desi soft">
+        <div class="col-md-4 col-xs-12 pitem pitema desi soft webdev">
             <div class="linkt">
                 <a href="//chrome.google.com/webstore/detail/to-do-list/lfjmacfbhcmehhkkbfokbghabkiobjpb" target="_blank">
                     <img class="portfolioimage" src="assets/images/portfolio/todoList.png" alt="chrome todo list">
@@ -125,7 +151,7 @@
             </div>
             <span class="procat">High-visibility "new-tab" Chrome extension that allows users to create to-do's in a customizable manner, thereby increasing their productivity.</span>
         </div>
-        <div class="col-md-4 col-xs-12 pitem pitema soft">
+        <div class="col-md-4 col-xs-12 pitem pitema soft java">
             <div class="linkt">
                 <a href="//github.com/amadrzyk/Limited-Infection" target="_blank">
                     <img class="portfolioimage" src="assets/images/portfolio/limitedInfectionLoop.gif" alt="limited infection">

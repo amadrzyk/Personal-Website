@@ -43,6 +43,7 @@
 
     <!-- Custom Page Element Styles -->
     <link rel="stylesheet" type="text/css" href="page_elements/css/hover_button.css">
+    <link rel="stylesheet" type="text/css" href="page_elements/css/portfolio-selector.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -288,6 +289,17 @@
                 }
             ?>
         }
+    </script>
+
+    <!-- Portfolio Selector -->
+    <script src="page_elements/js/classie.js"></script>
+    <script src="page_elements/js/selectFx.js"></script>
+    <script>
+        (function() {
+            [].slice.call( document.querySelectorAll( 'select.cs-select' ) ).forEach( function(el) {
+                new SelectFx(el);
+            } );
+        })();
     </script>
 </body>
 
