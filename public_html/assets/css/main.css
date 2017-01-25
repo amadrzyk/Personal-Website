@@ -439,7 +439,7 @@ footer p {
     background-color: #3e3e3b!important;
 }
 
- /*Image hover effect */
+/*Image hover effect */
 .footerImg {
     display: inline-block;
     background-color: black;
@@ -455,8 +455,8 @@ footer p {
     opacity: 0.8;
 }
 
- /*Responsiveness */
- /*SM SCREEN */
+/*Responsiveness */
+/*SM SCREEN */
 .itemlink {
     /*margin-top: 5%;*/
     text-align: center;
