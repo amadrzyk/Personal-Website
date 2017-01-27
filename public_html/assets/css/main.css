@@ -192,7 +192,9 @@ p {
 
 .bgimg-1, .bgimg-2, .bgimg-3, .headerText {
     position: relative;
-    background-attachment: fixed!important;
+    /* MOTION PARALLAX CONTROLLED BY BG ATTACHMENT */
+    /*background-attachment: fixed!important;*/
+    /* ALSO REMOVE BG POSITION OF BGIMG */
     background-position: 50% 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -219,11 +221,13 @@ p {
 
 .bgimg-2 {
     background-image: url("../images/explore.jpg");
+    background-position-y: -60px;
     min-height: 600px;
 }
 
 .bgimg-3 {
     background-image: url("../images/design1.jpg");
+    background-position-y: -50px;
     min-height: 600px; /*550*/
 }
 

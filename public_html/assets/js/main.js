@@ -14,7 +14,7 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 (function($) {
     $.fn.parallax = function(options) {
 
-        if (!isMobile) {
+        if (!isMobile && false) {
             var windowHeight = $(window).height();
 
             // Establish default settings
