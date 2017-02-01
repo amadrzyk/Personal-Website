@@ -427,13 +427,22 @@ footer p {
     text-rendering: auto;
     padding-left: 5px;
     padding-right: 5px;
-    /*border: solid 4px black!important;  DEBUG PORTFOLIO*/
+    /*border: solid 4px black!important; !* PORTFOLIO_DEBUG *!*/
 }
 .proname {
     margin-top: 20px;
     font-size: 1em;
     font-weight: 800;
     display: block;
+
+    /* FORCE 1 LINE MAX */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    /*line-height: 16px;     !* fallback *!*/
+    /*max-height: 96px;      !* fallback *!*/
+    -webkit-line-clamp: 1; /* number of lines to show */
+    -webkit-box-orient: vertical;
 }
 .procat {
     margin-top: 20px;
@@ -443,7 +452,17 @@ footer p {
     text-align: left;
     margin-left: 5%;
     margin-right: 5%;
+
+    /* FORCE 6 LINES MAX */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    /*line-height: 16px;     !* fallback *!*/
+    /*max-height: 96px;      !* fallback *!*/
+    -webkit-line-clamp: 6; /* number of lines to show */
+    -webkit-box-orient: vertical;
 }
+
 .portfolioimage {
     opacity: 0.9;
     text-align: center;
