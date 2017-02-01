@@ -427,6 +427,7 @@ footer p {
     text-rendering: auto;
     padding-left: 5px;
     padding-right: 5px;
+    /*border: solid 4px black!important;  DEBUG PORTFOLIO*/
 }
 .proname {
     margin-top: 20px;
