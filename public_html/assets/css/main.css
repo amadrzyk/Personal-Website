@@ -190,7 +190,7 @@ p {
 
 /* ================================================== PARALLAX ================================================== */
 
-.bgimg-1, .bgimg-2, .bgimg-3, .headerText {
+.bgimg1, .bgimg2, .bgimg3 {
     position: relative;
     /* MOTION PARALLAX CONTROLLED BY BG ATTACHMENT */
     /*background-attachment: fixed!important;*/
@@ -232,22 +232,6 @@ p {
     text-align:center;
     padding-top: 4%;
     padding-bottom: 4%;
-}
-
-
-/* PARALLAX */
-.fh5co-hero {
-    background-color: #555;
-    background-attachment: initial;
-    background-position: 50% 0;
-    background-size: cover;
-    position: relative;
-}
-
-@media screen and (max-width: 768px) {
-    .fh5co-hero {
-        height: 70%;
-    }
 }
 
 /* ================================================== GLOBAL ACADEMICS ============================================ */

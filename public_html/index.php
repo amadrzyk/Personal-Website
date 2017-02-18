@@ -92,7 +92,7 @@
     <!--=============================================== BODY ====================================================-->
 
     <!-- HEADER TITLE -->
-    <div class="fh5co-hero bgimg1" style="background-image: url(assets/images/header.png);" data-stellar-background-ratio="0.5"></div>
+    <div class="bgimg1" style="background-image: url(assets/images/header.png);"></div>
 
     <!-- FIRST INFO PANE -->
     <div id="firstPane" style="background-color:white; padding:50px 0 40px 0; text-align: justify;">
@@ -163,7 +163,7 @@
     </div>
 
     <!-- SECOND BACKGROUND IMAGE -->
-    <div class="fh5co-hero bgimg2" style="background-image: url(assets/images/explore.jpg);" data-stellar-background-ratio="0.5"></div>
+    <div class="bgimg2" style="background-image: url(assets/images/explore.jpg);"></div>
 
     <!-- SECOND INFO PANE -->
     <div id="secondPane" style="background-color:white; padding:50px 0; text-align: justify;">
@@ -197,7 +197,7 @@
     </div>
 
     <!-- THIRD BACKGROUND IMAGE -->
-    <div class="fh5co-hero bgimg1" style="background-image: url(assets/images/design1.jpg);" data-stellar-background-ratio="0.5"></div>
+    <div class="bgimg1" style="background-image: url(assets/images/design1.jpg);"></div>
 
     <!-- THIRD INFO PANE -->
     <div id="thirdPane" style="background-color:white; padding:50px 0; text-align: justify;">
@@ -261,8 +261,6 @@
 
     <!-- Theme JavaScript -->
     <script src="assets/js/jquery.waypoints.min.js"></script>
-    <script src="assets/js/jquery.mixitup.min.js"></script>
-    <script src="assets/js/jquery.stellar.min.js"></script>
     <script src="assets/js/jquery.mixitup.min.js"></script>
     <script src="assets/js/main.js"></script>
 

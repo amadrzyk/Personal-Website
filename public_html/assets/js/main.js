@@ -28,28 +28,3 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
         }
     })
 }(jQuery);
-
-
-/**
- * DEVELOPED by FreeHTML5.co
- */
-(function () {
-
-    if(!isMobile) {
-        var parallax = function () {
-            $(window).stellar({
-                horizontalScrolling: false,
-                hideDistantElements: false,
-                responsive: true
-            });
-        };
-
-        // Document on load.
-        $(function () {
-            parallax();
-        });
-    } else {
-        $(".fh5co-hero").css("background-attachment", "initial");
-    }
-
-}());
