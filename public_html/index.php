@@ -40,10 +40,12 @@
 
     <!-- Theme CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
 
     <!-- Custom Page Element Styles -->
     <link rel="stylesheet" type="text/css" href="page_elements/css/hover_button.css">
     <link rel="stylesheet" type="text/css" href="page_elements/css/portfolio-selector.css">
+    <link rel="stylesheet" type="text/css" href="page_elements/css/portfolio_mixin.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -90,16 +92,7 @@
     <!--=============================================== BODY ====================================================-->
 
     <!-- HEADER TITLE -->
-    <div class="bgimg-1">
-<!--        <div class="caption" id="title" style="display: table;">-->
-<!--            <div style="display: table-cell; vertical-align: middle;">-->
-<!--                <div>-->
-<!--                    <span class="border" id="headerTitle"> Alex Madrzyk </span>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-    </div>
-<!--    <div class="headerText"></div>-->
+    <div class="fh5co-hero bgimg1" style="background-image: url(assets/images/header.png);" data-stellar-background-ratio="0.5"></div>
 
     <!-- FIRST INFO PANE -->
     <div id="firstPane" style="background-color:white; padding:50px 0 40px 0; text-align: justify;">
@@ -170,9 +163,7 @@
     </div>
 
     <!-- SECOND BACKGROUND IMAGE -->
-    <div class="bgimg-2">
-<!--        <div class="caption"><span class="border">LESS HEIGHT</span></div>-->
-    </div>
+    <div class="fh5co-hero bgimg2" style="background-image: url(assets/images/explore.jpg);" data-stellar-background-ratio="0.5"></div>
 
     <!-- SECOND INFO PANE -->
     <div id="secondPane" style="background-color:white; padding:50px 0; text-align: justify;">
@@ -182,7 +173,6 @@
 
         <?php
             include_once "./page_elements/educationText.html";
-//            include_once "./page_elements/more_info.html";
         ?>
 
     </div>
@@ -207,9 +197,7 @@
     </div>
 
     <!-- THIRD BACKGROUND IMAGE -->
-    <div class="bgimg-3">
-<!--        <div class="caption"><span class="border">SCROLL UP</span></div>-->
-    </div>
+    <div class="fh5co-hero bgimg1" style="background-image: url(assets/images/design1.jpg);" data-stellar-background-ratio="0.5"></div>
 
     <!-- THIRD INFO PANE -->
     <div id="thirdPane" style="background-color:white; padding:50px 0; text-align: justify;">
@@ -253,7 +241,8 @@
             </div>
         </div>
 
-        <p class="slide-bottom" style="text-align: center; padding-bottom: 3%; font-weight:400; letter-spacing: 1px;">Made with <span style="color: #FF5A79; font-size: 13px;">♥</span> by Alex Madrzyk © 2017</p>
+        <p class="slide-bottom" style="text-align: center; padding-bottom: 3%; font-weight:400; letter-spacing: 1px;
+            padding-left: 1%">Made with <span style="color: #FF5A79; font-size: 13px;">♥</span> by Alex Madrzyk © 2017</p>
     </footer>
 
     <!--=============================================== JS SCRIPTS ==============================================-->
@@ -271,10 +260,15 @@
     <!-- <script src="js/contact_me.js"></script>-->
 
     <!-- Theme JavaScript -->
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/jquery.mixitup.min.js"></script>
+    <script src="assets/js/jquery.stellar.min.js"></script>
+    <script src="assets/js/jquery.mixitup.min.js"></script>
     <script src="assets/js/main.js"></script>
 
     <!-- Custom Page Element JavaScript -->
     <script src="page_elements/js/portfolio.js" type="text/javascript"></script>
+    <script src="page_elements/js/portfolio_mixin.js" type="text/javascript"></script>
 
     <!-- FadeThis -->
     <script src="assets/js/jquery.fadethis.js" type="text/javascript"></script>
@@ -300,6 +294,29 @@
                 new SelectFx(el);
             } );
         })();
+    </script>
+
+    <!-- Portfolio_Mixin items -->
+    <script type="text/javascript">
+        $(function () {
+            var filterList = {
+                init: function () {
+                    // MixItUp plugin
+                    // http://mixitup.io
+                    $('#portfoliolist').mixItUp({
+                        selectors: {
+                            target: '.portfolio',
+                            filter: '.filter'
+                        },
+                        load: {
+                            filter: '.all'
+                        }
+                    });
+                }
+            };
+            // Run the show!
+            filterList.init();
+        });
     </script>
 </body>
 

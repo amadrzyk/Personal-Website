@@ -1,0 +1,179 @@
+
+<div class="container">
+    <div class="row portfolioBar" style="background-color: #f5f5f5; margin-top:60px">
+        <div class="col-md-4 col-xs-12 slide-bottom" style="text-align: center; float:left;">
+            <select class="cs-select cs-skin-slide" id="portfolioMenu">
+                <option value="discipline">Disciplines</option>
+                <option value="language">Languages</option>
+            </select>
+        </div>
+        <div id="portDisciplines">
+            <div class="col-md-8 col-xs-12 minor thumbnails slide-bottom">
+                <!--<span class="linkt"><a class="potato xall" target="_blank">All&nbsp;&nbsp;</a></span>|-->
+                <!--<span class="linkt"><a class="potato xprog" target="_blank">&nbsp;&nbsp;Web/Programming&nbsp;&nbsp;</a></span>|-->
+                <!--<span class="linkt"><a class="potato xelec" target="_blank">&nbsp;&nbsp;Computer Engineering&nbsp;&nbsp;</a></span>|-->
+                <!--<span class="linkt"><a class="potato xdesi" target="_blank">&nbsp;&nbsp;Design&nbsp;&nbsp;</a></span>-->
+
+                <ul id="filters" class="clearfix animate-box">
+                    <li><span class="filter active" data-filter=".all">All</span></li>
+                    <li><span class="filter" data-filter=".prog">Web/Programming</span></li>
+                    <li><span class="filter" data-filter=".elec">Computer Engineering</span></li>
+                    <li><span class="filter" data-filter=".desi">Design</span></li>
+                </ul>
+            </div>
+        </div>
+        <div id="portLanguages" class="hideMe">
+            <div class="col-md-8 col-xs-12 minor thumbnails">
+                <!--&lt;!&ndash; All Java Python HTML/CSS/Javascript PHP C MIPS Swift AdobeCC &ndash;&gt;-->
+                <!--<span class="linkt"><a class="potato xall"      target="_blank">All&nbsp;&nbsp;</a></span>|-->
+                <!--<span class="linkt"><a class="potato xjava"     target="_blank">&nbsp;&nbsp;Java&nbsp;&nbsp;</a></span>|-->
+                <!--<span class="linkt"><a class="potato xpyth"     target="_blank">&nbsp;&nbsp;Python&nbsp;&nbsp;</a></span>|-->
+                <!--<span class="linkt"><a class="potato xwebdev"   target="_blank">&nbsp;&nbsp;HTML/CSS/Javascript&nbsp;&nbsp;</a></span><br>-->
+                <!--<span class="linkt"><a class="potato xphp"      target="_blank">&nbsp;&nbsp;PHP&nbsp;&nbsp;</a></span>|-->
+                <!--<span class="linkt"><a class="potato xclang"    target="_blank">&nbsp;&nbsp;C&nbsp;&nbsp;</a></span>|-->
+                <!--<span class="linkt"><a class="potato xmips"     target="_blank">&nbsp;&nbsp;MIPS&nbsp;&nbsp;</a></span>|-->
+                <!--<span class="linkt"><a class="potato xswift"    target="_blank">&nbsp;&nbsp;Swift&nbsp;&nbsp;</a></span>|-->
+                <!--<span class="linkt"><a class="potato xadobe"    target="_blank">&nbsp;&nbsp;Adobe CC&nbsp;&nbsp;</a></span>-->
+
+                <ul id="filters" class="clearfix animate-box">
+                    <li><span class="filter active" data-filter=".all">All</span></li>
+                    <li><span class="filter" data-filter=".java">Java</span></li>
+                    <li><span class="filter" data-filter=".pyth">Python</span></li>
+                    <li><span class="filter" data-filter=".webdev">HTML/CSS/Javascript</span></li><br>
+                    <li><span class="filter" data-filter=".php">PHP</span></li>
+                    <li><span class="filter" data-filter=".clang">C</span></li>
+                    <li><span class="filter" data-filter=".mips">MIPS</span></li>
+                    <li><span class="filter" data-filter=".swift">Swift</span></li>
+                    <li><span class="filter" data-filter=".adobe">Adobe CC</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="fh5co-page">
+    <div id="fh5co-portfolio-section">
+        <div class="container">
+            <div id="portfoliolist" class="animate-box">
+
+                <div class="portfolio all prog desi webdev" data-cat="logo">
+                    <div class="portfolio-wrapper">
+                        <img src="assets/images/portfolio_mixin/timetocare.jpg" alt="" />
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title" href="//devpost.com/software/timetocare">TimeToCare →</a>
+                                <span class="text-category">Hackathon project that minimizes patients' wait time to get treated. Won Best Hack to Improve Patient Wait Times in Hospitals.</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio all elec mips clang" data-cat="card">
+                    <div class="portfolio-wrapper">
+                        <img src="assets/images/portfolio_mixin/CPU.jpg" alt="" />
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title" href="//github.com/amadrzyk/MIPS-CPU-in-Logisim">CPU Logic + ALU Design →</a>
+                                <span class="text-category">Functional model of a 32-bit two-cycle processor and arithmetic logic unit that reads and executes MIPS instructions via Logisim.</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio all prog desi webdev php" data-cat="web">
+                    <div class="portfolio-wrapper">
+                        <img src="assets/images/portfolio_mixin/profile.png" alt="" />
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title" href="//github.com/amadrzyk/blank-bootstrap">Blank Bootstrap →</a>
+                                <span class="text-category">A modular and easy-to-use Bootstrap template (and shell script) for web developers to quickly begin their newest project.</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio all prog java" data-cat="card">
+                    <div class="portfolio-wrapper">
+                        <img src="assets/images/portfolio_mixin/PlayAchiLoop.gif" alt="achi gameplay" loop=infinite />
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title" href="//github.com/amadrzyk/Achi-Dynamic-Programming">Achi AI →</a>
+                                <span class="text-category">AI algorithm that plays the user in Achi. The algorithm uses dynamic programming to calculate the best possible moves.</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio all prog pyth" data-cat="app">
+                    <div class="portfolio-wrapper">
+                        <img src="assets/images/portfolio_mixin/twitter_sa.png" alt="" />
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title" href="//github.com/amadrzyk/Twitter-Sentiment-Analysis/">Twitter Sentiment Analysis →</a>
+                                <span class="text-category">Performs aggregated sentiment analysis on user tweet data, to determine which timezone in the continental US is the happiest.</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio all prog java" data-cat="card">
+                    <div class="portfolio-wrapper">
+                        <img src="assets/images/portfolio_mixin/MazeLoop.gif" alt="" loop=infinite/>
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title" href="//github.com/amadrzyk/Algorithmic-Maze-Solver">Maze Solver →</a>
+                                <span class="text-category">Calculates the shortest path from a start tile of the maze to an end tile using a modified A* algorithm and distance heuristics.</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio all card" data-cat="card">
+                    <div class="portfolio-wrapper">
+                        <img src="assets/images/portfolio_mixin/portfolio_pic7.jpg" alt="" />
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title">Techlion</a>
+                                <span class="text-category">Business card</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio all logo" data-cat="logo">
+                    <div class="portfolio-wrapper">
+                        <img src="assets/images/portfolio_mixin/portfolio_pic8.jpg" alt="" />
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title">KittyPic</a>
+                                <span class="text-category">Logo</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio all icon" data-cat="icon">
+                    <div class="portfolio-wrapper">
+                        <img src="assets/images/portfolio_mixin/portfolio_pic9.jpg" alt="" />
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title">Domino's Pizza</a>
+                                <span class="text-category">Icon</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END fh5co-portfolio-section -->
+</div>

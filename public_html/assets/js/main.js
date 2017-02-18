@@ -80,14 +80,22 @@ $('.bgimg-1, .bgimg-2, .bgimg-3').parallax({
 }(jQuery);
 
 
-function showContent() {
-    toggled++;
-    if (toggled % 2 == 0) {
-        $('.aboutme').hide();
-        $('.toggleme').html('You can check out the other things I do <span class="fakeIn" onclick="showContent();">here.</span>');
-    }
-    else {
-        $('.aboutme').show();
-        $('.toggleme').html('To hide this information, click <span class="fakeIn" onclick="showContent();">here.</span>');
-    }
-};
+/**
+ * DEVELOPED by FreeHTML5.co
+ */
+(function () {
+
+    var parallax = function() {
+        $(window).stellar({
+            horizontalScrolling: false,
+            hideDistantElements: false,
+            responsive: true
+        });
+    };
+
+    // Document on load.
+    $(function(){
+        parallax();
+    });
+
+}());

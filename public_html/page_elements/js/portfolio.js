@@ -17,7 +17,7 @@ $('.xdesi').click(function(){
 });
 $('.xprog').click(function(){
     $('.pitem').addClass("hidden");
-    $('.soft').removeClass("hidden");
+    $('.prog').removeClass("hidden");
     $('.pitem').removeClass("pitema");
     $('.switchrow').removeClass("row");
 });
