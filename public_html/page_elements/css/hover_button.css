@@ -7,9 +7,9 @@
     -moz-font-feature-settings: 'liga';
     -webkit-font-feature-settings: 'liga';
     font-feature-settings: 'liga';
-    padding-top: 80px;
+    /*padding-top: 80px;*/
     /*padding-bottom: 30px;*/
-    /**/
+    padding-top: 70px;                                               /*DELETE WHEN W/ RESUME BUTTON*/
 }
 
 #u104 {
@@ -86,6 +86,8 @@
     -webkit-transition:
             -webkit-transform .3s ease-in-out;
     transition: transform .3s ease-in-out;
+    height: 55px;                                               /*DELETE WHEN W/ RESUME BUTTON*/
+    width: 170px;                                               /*DELETE WHEN W/ RESUME BUTTON*/
 }
 .u104:before, .u104:after {
     position: absolute;

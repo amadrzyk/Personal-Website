@@ -28,3 +28,11 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
         }
     })
 }(jQuery);
+
+
+(function (){
+    if(isMobile){
+        $(".bgimg2").css("background-position-y", "0");
+        $(".bgimg3").css("background-position-y", "0");
+    }
+})();
