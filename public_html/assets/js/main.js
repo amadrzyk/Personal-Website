@@ -35,19 +35,21 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
  */
 (function () {
 
-    var parallax = function() {
-        $(window).stellar({
-            horizontalScrolling: false,
-            hideDistantElements: false,
-            responsive: true
-        });
-    };
+    if(!isMobile) {
+        var parallax = function () {
+            $(window).stellar({
+                horizontalScrolling: false,
+                hideDistantElements: false,
+                responsive: true
+            });
+        };
 
-    // Document on load.
-    $(function(){
-        if(!isMobile) {
+        // Document on load.
+        $(function () {
             parallax();
-        }
-    });
+        });
+    } else {
+        $(".fh5co-hero").css("background-attachment", "initial");
+    }
 
 }());
