@@ -239,14 +239,14 @@ p {
 .fh5co-hero {
     background-color: #555;
     background-attachment: fixed;
+    background-position: 50% 0;
     background-size: cover;
     position: relative;
 }
 
 @media screen and (max-width: 768px) {
-    .fh5co-hero {
-        height: inherit;
-        padding: 4em 0;
+    .bgimg2 {
+        height: 70%;
     }
 }
 
