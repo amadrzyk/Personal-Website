@@ -184,14 +184,15 @@
                 <img src="assets/images/pinkribbon.png" alt="Awards" width="80%" style="max-width: 310px; padding-bottom: 10px"/>
             </p>
             <p style="text-align: center; font-size: 17pt; font-weight: 100">
-                <span class="awardTitle">Western University In-Course Scholarship,</span><span id="in1"></span> Recipient, 2016<br>
-                <span class="awardTitle">Best Hack to Improve Patient Wait Times in Hospitals,</span><span id="in2"></span> Recipient, 2016<br>
-                <span class="awardTitle">Magnet Forensics: Cracking the Code Challenge,</span><span id="in3"></span> Third Place Winner, 2016<br>
-                <span class="awardTitle">Western International Learning Award,</span><span id="in4"></span> Recipient, 2016<br>
-                <span class="awardTitle">Queen Elizabeth II Silver Jubilee Endowment Fund,</span><span id="in5"></span> Recipient, 2016<br>
-                <span class="awardTitle">Robert and Ruth Lumsden Scholarships in Science,</span><span id="in6"></span> Recipient, 2015<br>
-                <span class="awardTitle">Western University Scholarship of Excellence,</span><span id="in7"></span> Recipient, 2014<br>
-                <span class="awardTitle">Student of Distinction Award,</span><span id="in8"></span> Recipient, 2014<br>
+                <span class="awardTitle">Bloomberg LP: PennApps Logic Challenge,</span><span class="award"></span> First Place, 2017<br>
+                <span class="awardTitle">Western University In-Course Scholarship,</span><span class="award"></span> Recipient, 2016<br>
+                <span class="awardTitle">Best Hack to Improve Patient Wait Times in Hospitals,</span><span class="award"></span> Recipient, 2016<br>
+                <span class="awardTitle">Magnet Forensics: Cracking the Code Challenge,</span><span class="award"></span> Third Place, 2016<br>
+                <span class="awardTitle">Western International Learning Award,</span><span class="award"></span> Recipient, 2016<br>
+                <span class="awardTitle">Queen Elizabeth II Silver Jubilee Endowment Fund,</span><span class="award"></span> Recipient, 2016<br>
+                <span class="awardTitle">Robert and Ruth Lumsden Scholarships in Science,</span><span class="award"></span> Recipient, 2015<br>
+                <span class="awardTitle">Western University Scholarship of Excellence,</span><span class="award"></span> Recipient, 2014<br>
+                <span class="awardTitle">Student of Distinction Award,</span><span class="award"></span> Recipient, 2014<br>
             </p>
         </div>
     </div>
@@ -275,11 +276,10 @@
     <!-- Insert Break at Span ID (for the awards section) -->
     <script>
         if (isMobile) {
-            <?php
-                for ($x = 1; $x <= 8; $x++){
-                    echo "document.getElementById('in", $x, "').innerHTML = '<br>';\n";
-                }
-            ?>
+            var awards = document.getElementsByClassName("award");
+            for(var i = 0; i < awards.length; i++){
+                awards[i].innerHTML = '<br>';
+            }
         }
     </script>
 
