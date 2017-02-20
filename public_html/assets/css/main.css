@@ -406,8 +406,24 @@ footer p {
     text-rendering: auto;
     padding-left: 5px;
     padding-right: 5px;
-    /*border: solid 4px black!important; !* PORTFOLIO_DEBUG *!*/
+    padding-bottom: 15px;
+
+
+    /* MATERIAL CARD HOVER EFFECT */
+    background: #fff;
+    border-radius: 2px;
+    position: relative;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
+.pitem:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    z-index: 999;
+}
+.portfolio a, .portfolio a:hover{
+    color: inherit;
+}
+
 .proname {
     margin-top: 20px;
     font-size: 1em;
@@ -469,12 +485,12 @@ footer p {
 
 @media screen and (min-width: 800px) {
     /*Applies to screen more than 1000 or the md thingies, above works for sm*/
-    .pitema:nth-child(2),
-    .minor.col-md-3:nth-child(3) {
-        border: 1px solid #ddd;
-        border-top: 0;
-        border-bottom: 0;
-    }
+    /*.pitema:nth-child(2),*/
+    /*.minor.col-md-3:nth-child(3) {*/
+        /*!*border: 1px solid #ddd;*!*/
+        /*border-top: 0;*/
+        /*border-bottom: 0;*/
+    /*}*/
 
     .portfolioimage {
         max-width: 72%;
