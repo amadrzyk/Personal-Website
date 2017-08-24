@@ -113,13 +113,6 @@
 
                         When I’m not in class, you can find me going on adventures with friends, watching Mr. Robot, or
                         at my workspace developing a new project.
-
-                        <!--Hi, I'm Alex! I am a third-year computer science student at Western University. My passions lie in
-                        web and software development, design, and customer relations. In my years as a student and
-                        young professional, I have delivered creative and engaging solutions across digital media and
-                        online presence and assumed leadership roles along the way.-->
-
-
                     </p>
 
                 </div>
@@ -146,7 +139,7 @@
         </div>
 
         <p class="slide-bottom" style="text-align: center; padding-top: 20px; line-height: 135%">If you like my work, please feel free to contact me.<br>
-            I'm currently looking for a place to learn and intern during the Fall of 2017!</p>
+            I'm currently looking for a place to learn and intern during the Winter of 2018!</p>
 
         <!-- Contact Button -->
         <div class="container">
