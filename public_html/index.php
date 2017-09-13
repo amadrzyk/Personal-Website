@@ -139,7 +139,7 @@
         </div>
 
         <p class="slide-bottom" style="text-align: center; padding-top: 20px; line-height: 135%">If you like my work, please feel free to contact me.<br>
-            I'm currently looking for a place to learn and intern during the Winter of 2018!</p>
+            I'm currently looking for a place to learn and intern during the Summer of 2018!</p>
 
         <!-- Contact Button -->
         <div class="container">
