@@ -1,5 +1,5 @@
 # Personal Website
 
-[alexmadrzyk.com](http://alexmadrzyk.com/)
+[alexmadrzyk.com](https://alexmadrzyk.com/)
 
-![website screenshot](http://alexmadrzyk.com/assets/images/screenshot.jpg)
+![website screenshot](https://www.alexmadrzyk.com/assets/images/screenshot.jpg)
